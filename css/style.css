@@ -27,6 +27,7 @@
 .cards {
   padding: 2rem;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .cards > ul {
@@ -35,31 +36,36 @@
   grid-gap: 2rem;
 }
 
-.cards > ul > li {
+.cards > ul > a > li {
   border: 1px solid #d2d2d2;
   border-radius: .2rem;
   list-style-type: none;
 }
 
-.cards > ul > li > figure {
+.cards > ul > a > li:hover{
+  opacity: 80%;
+}
+
+
+.cards > ul > a > li > figure {
   max-height: 180px;
   overflow: hidden;
   border-top-left-radius: .2rem;
   border-top-right-radius: .2rem;
 }
 
-.cards > ul > li > figure > img {
+.cards > ul > a > li > figure > img {
   width: 100%;
   padding: 0;
 }
 
-.cards > ul > li > figcaption > h4 {
+.cards > ul > a > li > figcaption > h4 {
   padding: 1rem;
   padding-bottom: 0;
   font-size: 0.90rem;
 }
 
-.cards > ul > li > p {
+.cards > ul > a > li > p {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem;
@@ -67,7 +73,7 @@
   padding-top: 8px;
 }
 
-.cards > ul > li > a > h4 {
+.cards > ul > a > li > h4 {
   padding: 1rem;
   padding-top:0;
   font-size: .9rem;
