@@ -1,10 +1,9 @@
 #hello{
-  color: #B51A17; 
+  color: #FBCBC8; 
   font-weight: 600; 
-  font-size: 85px; 
+  font-size: 60px; 
   font-family: 'Calistoga', cursive; 
-  line-height: 80px; 
-  opacity: 30%; 
+  line-height: 60px; 
   padding:0
 }
 
@@ -480,6 +479,15 @@ button.btn{
 /* <!-- ======MEDIA QUERY 850px========> --> */
 
 @media screen and (min-width: 850px){
+
+  #hello{
+    color: #FBCBC8; 
+    font-weight: 600; 
+    font-size: 85px; 
+    font-family: 'Calistoga', cursive; 
+    line-height: 80px;
+    padding:0
+  }
 
   body{
     font-size: 16px;
