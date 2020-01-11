@@ -94,13 +94,6 @@ document.addEventListener(
     'keydown', function(e){
         console.log()
         console.log(e);
-        if(e.key == 'a'){
-            window.location.href = "about.html";
-        }
-
-        if(e.key == 'p'){
-            window.location.href = "index.html";
-        }
 
         if(e.key == "j"){
             flag = 1;
