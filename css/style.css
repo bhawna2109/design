@@ -1,3 +1,13 @@
+#hello{
+  color: #B51A17; 
+  font-weight: 600; 
+  font-size: 85px; 
+  font-family: 'Calistoga', cursive; 
+  line-height: 80px; 
+  opacity: 30%; 
+  padding:0
+}
+
 .social{
   padding-top: 10px;
   display: flex;
@@ -508,8 +518,7 @@ button.btn{
   #keyboard{
     position: fixed;
     bottom: 54px;
-    margin-left: 16px;
-    width: 16%;
+    width: 240px;
     padding: 0;
     display: none;
     animation-name: fadeIn;
