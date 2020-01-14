@@ -172,7 +172,7 @@ h3{
   font-size: 16px;
   line-height: 1.5em;
   padding-top: 20px;
-  color: white;
+  color: #f4f4f4;
 }
 
 h4{
@@ -669,6 +669,7 @@ button.btn{
   #page-title-content{
     width: 50%;
     margin: 0 auto;
+    padding-top: 60px;
   }
 
   .img-cont{
