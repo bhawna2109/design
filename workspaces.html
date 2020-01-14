@@ -47,23 +47,20 @@
     <section class="sec" id="page-title">
       <section id = "page-title-content">
         <img src="images/postman-logo-horizontal-white.svg" alt="postman's logo" class ="descrp-logo">
-        <h1>Find and replace</h1>
-        <h3>Designed the experience for performing bulk refactor in Postman</h3>
+        <h1>Workspaces</h1>
+        <h3>Visualized a new abstraction called 'Workspaces' in Postman</h3>
         <br>
         <br>
-        <p style="font-style:italic; color: #808080; padding-bottom: 60px; font-size: 18px;">This story highlights the importance of 'keep trying until you succeed'.</p>
+        <p style="font-style:italic; color: #808080; padding-bottom: 60px; font-size: 18px;">This story highlights the importance of thinking about a concept from various different viewpoint - it can lead to interesting insights!</p>
       </section>
     </section>
 
     <div id="side-nav">
         <ul>
-          <li><h5>Find and replace</h5></li>
-          <li><a href="#section-1" data-index="1">The need</a></li>
-          <li><a href="#section-2" data-index="2">Responsibilities</a></li>
-          <li><a href="#section-3" data-index="3">Design decisions</a></li>
-          <li><a href="#section-4" data-index="4">Early iterations</a></li>
-          <li><a href="#section-5" data-index="5">Final design</a></li>
-          <li><a href="#section-6" data-index="6">Core learning</a></li>
+          <li><h5>Workspaces</h5></li>
+          <li><a href="#section-1" data-index="1">Overview</a></li>
+          <li><a href="#section-2" data-index="2">Scenarios</a></li>
+          <li><a href="#section-3" data-index="3">What's next</a></li>
         </ul>
        
         <!-- <a href><div id="keyboard"><i class="material-icons md-48">keyboard</i>Keyboard</div></a> -->
@@ -74,61 +71,31 @@
     <article class="container" id="skip-main">
 
       <section class="sec" id="section-1" data-index="1">
-        <h4 style="color:#B51A17; padding-bottom: 15px;">THE NEED</h4> 
-        <h2>Why do we need find and replace?</h2>
-        <p>Find and replace was a long awaited feature - we had been getting several feature requests over the years around supporting bulk refactoring in Postman. Some of our users were working with hundreds of collections and environments, and they wanted an easy way to replace things in bulk, rather than having to do it one by one.</p>
+        <h4 style="color:#B51A17; padding-bottom: 15px;">OVERVIEW</h4> 
+        <h2>Thinking different</h2>
+        <p>Workspaces is a key feature in Postman. When the work on this feature was started, everyone in the team had a very vague idea of what workspaces would be like, and required a lot of discussions and brainstorming. <strong>Workspaces was supposed to be a 'view' over all the Postman entities (collections, environments etc.).</strong> This meant that one entity in the Postman data store could reside in multiple workspaces. Workspaces were NOT meant to act like folders (containers).
+
+        <br><br> I came up with the idea of visualising workspaces as actual views (something which we had learnt in physics class back in school). This illustration helped a lot of people in the team understand the abstraction better and made the next steps clearer.</p>    
+        <a href="images/workspaces/workspaces_as_views.png" data-lightbox="image-1" data-title="views"><img src="images/workspaces/workspaces_as_views.png" alt="views" width="100%"></a>
+        <a href="images/workspaces/operations.png" data-lightbox="image-1" data-title="operation"><img src="images/workspaces/operations.png" alt="operation" width="100%"></a>      
       </section>
 
       <section class="sec" id="section-2" data-index="2"> 
-        <h4 style="color:#B51A17; padding-bottom: 15px;">RESPONSIBILITIES</h4> 
-        <h2>My role</h2>
-        <p>As the only designer working on this feature, my responsibilities included:</p>
-        <ul style="margin-left: 20px;">
-          <li>Understanding the underlying need of the users by going through feature requests on github and other channels</li>
-          <li>Learning about bulk refactoring in code</li>
-          <li>Wireframing: Understanding the Postman interface and creating wireframes to identify the best real estate to introduce this feature</li>
-          <li>Writing the design brief and defining what will 'Examples' mean in Postman</li>
-          <li>Wireframing: Understanding the Postman interface and creating wireframes to identify the best real estate to introduce this feature</li>
-          <li>Creating high-fidelity mocks and prototypes for the final solution</li>
-          <li>Working closely with engineers to ensure high-quality implementation</li>
-          <li>Writing documentation</li>
-        </ul>     
+        <h4 style="color:#B51A17; padding-bottom: 15px;">SCENARIOS</h4> 
+        <h2>Why do we need workspaces in Postman?</h2>
+        <p>To get a deeper understanding of how workspaces would fit into the real world use cases of Postman, I picked two personas and wrote scenarios for them.</p>
+        <a href="images/workspaces/scenario.jpg" data-lightbox="image-2"><img src="images/workspaces/scenario.jpg" alt="scenario" width="100%"></a>
+        <a href="images/workspaces/scenario2.jpg" data-lightbox="image-2"><img src="images/workspaces/scenario2.jpg" alt="scenario" width="100%"></a>     
       </section>
 
-      <section class="sec" id="section-3" data-index="3">
-        <h4 style="color:#B51A17; padding-bottom: 15px;">DESIGN DECICIONS</h4> 
-        <h2>UX ideologies behind certain design decisions</h2>
-        <p>I created an internal team wiki page and wrote down the design rationale and some UX ideologies behind certain design decisions.</p>
-        <a href="images/find_replace/find_replace_design_decisions.jpg" data-lightbox="image-1" data-title="UX ideologies behind certain design decisions"><img src="images/find_replace/find_replace_design_decisions.jpg" alt="UX ideologies behind certain design decisions" width="100%"></a>
+      <section class="sec" id="section-3" data-index="3"> 
+        <h4 style="color:#B51A17; padding-bottom: 15px;">WHAT'S NEXT</h4> 
+        <h2>Next steps</h2>
+        <p>I stopped working on the feature after a few initial designs were made. This feature is now in production. Read the full story <span style="font-weight:400;border-bottom: 1px solid currentColor;"><a href="https://learning.getpostman.com/docs/postman/workspaces/intro-to-workspaces/" target="_blank">here</a></span>.</p>
       </section>
 
-      <section class="sec" id="section-4" data-index="4">
-        <h4 style="color:#B51A17; padding-bottom: 15px;">EARLY ITERATIONS</h4> 
-        <h2>Wireframing</h2>
-        <p>These are a few early iterations for the feature - highlights the importance of 'trimming down' a design. I learned that <strong>adding interface elements is easy, but taking them off is hard.</strong> Thus, it is very important to utilise the real estate judiciously and keep ONLY the absolutely required interface elements for a cleaner and minimalistic design that 'works'.</p>
-        <a href="images/find_replace/iteration1.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration1.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration2.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration2.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration3.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration3.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration4.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration4.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration5.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration5.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration6.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration6.jpg" alt="iteration" width="100%"></a>       
-      </section>
-
-      <section class="sec" id="section-5" data-index="5">
-        <h4 style="color:#B51A17; padding-bottom: 15px;">FINAL DESIGN</h4> 
-        <h2>Converging on one design</h2>
-        <p>After a lot of iteration, we converged on one design that worked. I created an <strong>invision prototype</strong> to highlight detailed interactions.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gAB__aG9TXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding-top: 30px; width: 100%;"></iframe>
-      </section>
-
-      <section class="sec" id="section-6" data-index="6">
-        <h4 style="color:#B51A17; padding-bottom: 15px;">CORE LEARNING</h4> 
-        <h2>Biggest learning from this project</h2>
-        <p>My major learning from this project was realising and understanding the iterative nature of design. Sometimes it can take several iterations to reach a design which finally 'works'. Creating, sharing with team members, receiving feedback and iterating is the key. There's <strong>always</strong> scope for improvement.</p>
-       </section>
-
-
-     </article>     
+     </article>  
+     <div class="pixel160"></div>   
 
    </main>
 
