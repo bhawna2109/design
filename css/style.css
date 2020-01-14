@@ -1,3 +1,22 @@
+.caption img{
+  padding-bottom:0;
+}
+
+.caption p{
+  color: #808080;
+  padding-top: 0;
+}
+
+.caption{
+  padding-bottom: 40px;
+}
+
+.pixel160{
+  grid-column: 1/-1;
+  padding-bottom: 160px;
+  background-color: #f4f4f4;
+}
+
 #hello{
   color: #FBCBC8; 
   font-weight: 600; 
