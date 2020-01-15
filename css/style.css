@@ -1,3 +1,7 @@
+iframe{
+  width: 100%;
+}
+
 .caption img{
   padding-bottom:0;
 }
