@@ -63,7 +63,8 @@
           <li><a href="#section-3" data-index="3">Design decisions</a></li>
           <li><a href="#section-4" data-index="4">Early iterations</a></li>
           <li><a href="#section-5" data-index="5">Final design</a></li>
-          <li><a href="#section-6" data-index="6">Core learning</a></li>
+          <li><a href="#section-6" data-index="6">Testing</a></li>
+          <li><a href="#section-7" data-index="7">Core learning</a></li>
         </ul>
        
         <!-- <a href><div id="keyboard"><i class="material-icons md-48">keyboard</i>Keyboard</div></a> -->
@@ -74,9 +75,20 @@
     <article class="container" id="skip-main">
 
       <section class="sec" id="section-1" data-index="1">
+        <h4 style="color:#B51A17; padding-bottom: 15px;">OVERVIEW</h4> 
+        <h2>Project overview</h2>
+        <p style="padding: 10px 0;"><strong>Year:</strong> 2017</p>
+        <p style="padding: 10px 0;"><strong>Feature shipped:</strong> February 2017</p>
+
+        <p style="padding: 10px 0;">The most interesting thing about this project is that it did NOT start with a project specification or a brief aimed at changing the core component that was being used to work with data. Before the data editor was born, the Postman app used a basic <strong>key-value editor</strong> that was the core component for working with data in Postman. Being a component, it was plugged at a lot of places in the Postman app where users had to work with data, for example, editing variables or request params. Our users were happy with it and we did not receive any feature requests around changing it.
+
+           but changing it wasn't on our roadmap. There was no problem we had set to solve. No one even identified 'manipulating data in Postman' as a problem.</p>
+      </section>
+
+      <section class="sec" id="section-1" data-index="1">
         <h4 style="color:#B51A17; padding-bottom: 15px;">THE NEED</h4> 
         <h2>Why do we need find and replace?</h2>
-        <p>Find and replace was a long awaited feature - we had been getting several feature requests over the years around supporting bulk refactoring in Postman. Some of our users were working with hundreds of collections and environments, and they wanted an easy way to replace things in bulk, rather than having to do it one by one.</p>
+        <p>Find and replace was a long awaited feature in Postman - we had been getting several feature requests over the years around supporting bulk refactoring in Postman. Some of our users were working with a large amount of data, and they wanted an easy way to replace things in bulk, rather than having to do it one by one.</p>
       </section>
 
       <section class="sec" id="section-2" data-index="2"> 
@@ -106,12 +118,34 @@
         <h4 style="color:#B51A17; padding-bottom: 15px;">EARLY ITERATIONS</h4> 
         <h2>Wireframing</h2>
         <p>These are a few early iterations for the feature - highlights the importance of 'trimming down' a design. I learned that <strong>adding interface elements is easy, but taking them off is hard.</strong> Thus, it is very important to utilise the real estate judiciously and keep ONLY the absolutely required interface elements for a cleaner and minimalistic design that 'works'.</p>
-        <a href="images/find_replace/iteration1.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration1.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration2.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration2.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration3.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration3.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration4.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration4.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration5.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration5.jpg" alt="iteration" width="100%"></a>  
-        <a href="images/find_replace/iteration6.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration6.jpg" alt="iteration" width="100%"></a>       
+        <div class="caption">
+          <a href="images/find_replace/iteration1.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration1.jpg" alt="iteration" width="100%"></a>  
+          <p>Iteration 1</p>
+        </div>
+        <div class="caption">
+          <a href="images/find_replace/iteration1.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration1.jpg" alt="iteration" width="100%"></a>  
+          <p>Iteration 2</p>
+        </div>
+        <div class="caption">
+          <a href="images/find_replace/iteration2.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration2.jpg" alt="iteration" width="100%"></a>  
+          <p>Iteration 3</p>
+        </div>
+        <div class="caption">
+          <a href="images/find_replace/iteration3.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration3.jpg" alt="iteration" width="100%"></a>  
+          <p>Iteration 4/p>
+        </div>
+        <div class="caption">
+          <a href="images/find_replace/iteration4.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration4.jpg" alt="iteration" width="100%"></a>  
+          <p>Iteration 5</p>
+        </div>
+        <div class="caption">
+          <a href="images/find_replace/iteration5.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration5.jpg" alt="iteration" width="100%"></a>  
+          <p>Iteration 6</p>
+        </div>
+        <div class="caption">
+          <a href="images/find_replace/iteration6.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration6.jpg" alt="iteration" width="100%"></a>       
+          <p>Iteration 7</p>
+        </div>
       </section>
 
       <section class="sec" id="section-5" data-index="5">
@@ -122,6 +156,16 @@
       </section>
 
       <section class="sec" id="section-6" data-index="6">
+        <h4 style="color:#B51A17; padding-bottom: 15px;">TESTING</h4> 
+        <h2>How is find and replace being used?</h2>
+        <p>As part of the design process, the designers had to lay out the user interactions that were valuable to track. As the data started coming in, we used Microsoft's Power BI to analyse and make sense of the data (by working closely with the data science team).</p>
+        <div class="caption">
+          <a href="images/find_replace/test.png" data-lightbox="image-3" data-title="test"><img src="images/find_replace/test.png" alt="test" width="100%"></a>
+          <p>In app analytics events</p>
+        </div>
+      </section>
+
+      <section class="sec" id="section-7" data-index="7">
         <h4 style="color:#B51A17; padding-bottom: 15px;">CORE LEARNING</h4> 
         <h2>Biggest learning from this project</h2>
         <p>My major learning from this project was realising and understanding the iterative nature of design. Sometimes it can take several iterations to reach a design which finally 'works'. Creating, sharing with team members, receiving feedback and iterating is the key. There's <strong>always</strong> scope for improvement.</p>

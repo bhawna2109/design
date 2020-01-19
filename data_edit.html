@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68084642-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-68084642-2');
+    </script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="css/lightbox.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Bhawna's UX Portfolio</title>
+  </head>
+  
+
+
+  <body>
+    <div class="skip"><a href="#skip-main">Skip to Main Content</a></div>
+    
+    <!-- ======HEADER========> -->
+    <header class="contain">
+      <h2><a href="index.html" class= "name-logo">BA</a></h2>
+      <nav>
+        <ul class="nav-links">
+          <a href="index.html" id="nav-active"><li>Portfolio</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="writing.html"><li>Writing</li></a>
+        </ul>
+      </nav>
+    </header>
+    
+
+    
+   
+   <!-- ======MAIN========> -->
+  
+   <main>
+      <!-- page title -->
+      <section class="sec" id="page-title">
+        <section id = "page-title-content">
+          <img src="images/postman-logo-horizontal-white.svg" alt="postman's logo" class ="descrp-logo">
+          <h1>Data Editor</h1>
+          <h3>Conceptualised, designed, and shipped the core component used to manipulate data in Postman</h3>
+          <br>
+          <br>
+          <p style="font-style:italic; color: #808080; padding-bottom: 0; font-size: 18px;">A story about taking a step back and noticing the invisible problem by asking the right questions, experimenting, and winning.</p>
+          <p><a href="http://blog.getpostman.com/2017/02/28/introducing-the-new-data-editor/" target="_blank" style="font-weight:400; color:#ff2b55; font-size: 16px; border-bottom: 1px solid currentColor;">Read the blog post</a> </p>
+        </section>
+      </section>
+
+
+      <!-- side nav -->
+      <div id="side-nav">
+          <ul>
+            <li><h5>Postman's data editor</h5></li>
+            <li><a href="#section-1" data-index="1">Overview</a></li>
+            <li><a href="#section-2" data-index="2">My role</a></li>
+            <li><a href="#section-3" data-index="3">How it started</a></li>
+            <li><a href="#section-4" data-index="4">Eureka moment</a></li>
+            <li><a href="#section-5" data-index="5">Story twist</a></li>
+            <li><a href="#section-6" data-index="6">Designing the data editor</a></li>
+            <li><a href="#section-7" data-index="7">The execution</a></li>
+            <li><a href="#section-8" data-index="8">The learnings</a></li>
+            <li><a href="#section-9" data-index="9">The impact</a></li>
+          </ul>     
+          <img src="images/use_keyboard.png" alt="keyboard shortcuts" id="keyboard">
+      </div>
+
+
+      <!-- full content inside the article tag -->
+      <article class="container" id="skip-main">
+
+        <section class="sec" id="section-1" data-index="1">
+          <p style="padding: 10px 0;"><strong>Conceptualisation started:</strong> November 2016</p>
+          <p style="padding: 10px 0;"><strong>Component shipped:</strong> February 2017</p>
+          <br><br>
+          <h4 style="color:#B51A17; padding-bottom: 15px;">OVERVIEW</h4>
+          <h2>Background</h2>
+          <p>Postman is the only complete API development environment. It is a desktop application that provides a <strong>Graphical User Interface to work with APIs</strong> and is used by millions of developers around the world.
+            <br><br>
+            Working with APIs involves working with <strong>data that is in the form of key : value.</strong> For example, the query parameters that are part of the API, the headers that are sent with the request, the variables used in the request, the JSON response that is received, and so on.</p>
+          
+          <br><br>
+          <h2>What is the data editor?</h2>
+          <p><strong>The data editor is an improvement over the basic ‘key-value’ editor that was being used to work with data in Postman.</strong> Before the data editor was born, the Postman app had a basic key-value editor where the key and value fields were like fields of a form. The only way to navigate between the keys and values was by using the 'tab' key, similar to how you'd navigate to fill out a form. There was a separate 'Bulk edit' mode which was used to navigate through the keys and values quickly using the keyboard shortcuts and perform bulk copy-paste actions.
+            <br><br>
+            This key-value editor was being used at a lot of places in the Postman app since its inception, for example editing variables or request params. Our users were happy with it and we did not receive any feature requests around changing it.</p>
+          <img src="images/data_editor/keyvalue.png" alt="keyvalue vs data editor" style="width: 130%;">
+          <img src="images/data_editor/about.png" alt="about data editor" style="width: 120%;">
+          <img src="images/data_editor/findout.png" alt="why did we change the editor?" style="width: 100%;">
+        </section>
+
+        <section class="sec" id="section-2" data-index="2">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">MY ROLE</h4> 
+          <h2>Responsibilities</h2>
+          <p>As the only designer working on this feature, my responsibilities included:</p>
+          <ul style="margin-left: 20px;">
+            <li>Understanding the product and the underlying needs of the users</li>
+            <li>Ideation, wireframing and high fidelity mocks: creating high-fidelity mocks and prototypes for the final solution</li>
+            <li>Working closely with engineers to ensure high-quality implementation.</li>
+            <li>Writing documentation and blog post. Created GIFs (in the blog post) to highlight the usability improvements.</li>
+            <li>Consolidating user feedback received via various channels (Slack, Twitter, Github etc.), and using it to push further improvements to the feature</li>
+          </ul>
+        </section>
+
+        <section class="sec" id="section-3" data-index="3">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">HOW IT STARTED</h4>
+          <h2>The interesting part</h2>
+          <p>The most interesting thing about this project is that it did NOT start with a project specification or a brief aimed at improving the key-value editor. We were not thinking of changing our key-value editor. There was no problem we had set to solve. No one even identified 'manipulating data in Postman' as a problem. </p>
+          <br><br>
+          <h2>The 'visible' problem</h2>
+          <p>I was working on a project aimed at streamlining the concept of variables in Postman. Postman has variables with different scopes and it is a very powerful feature, but a lot of people didn't know about variables. For people who did, performing CRUD (Create, Read, Update, Delete) operations on variables was hard and tedious. Editing variables was hard since it required a lot of clicks.</p>
+          <img src="images/data_editor/honeycomb.png" alt="honeycomb" style="width: 100%;">
+          <img src="images/data_editor/github.png" alt="github issue" style="width: 100%;">
+          <p>The problem was that variables that affected a request were not present near the request in order to be able to edit them. To solve this, <strong>we were experimenting with introducing a tab called 'Variables' tab which would bring variables closer to the request.</strong> Variables would be more visible and editing them would involve less clicks.</p>
+          <br><br>
+          <h2>Taking a step back and noticing the invisible problem by asking the right questions</h2>
+          <p>I started working on designing the variables tab. Variables are data in the form of key-value pairs, so I used the existing key-value component for it. One day, I took a step back and asked myself - <strong>what is it that a user would want to do when she comes to the 'Variables' tab? </strong></p>
+          <p><strong>The answer was simple. Add, update, remove and view variable values.</strong> It suddenly made me see that the underlying component that was being used to edit variables i.e. the key-value editor had limited capabilities, for example, if the variable value was long, there was no way to see the complete value. Postman is a developer product and developers LOVE keyboard shortcuts, but the key-value editor had almost no support for it. Our users had to switch to the 'Bulk Edit' mode to work with data quickly.</p>   
+        </section>
+
+
+        <section class="sec" id="section-4" data-index="4">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">THE EUREKA MOMENT</h4>
+          <h2>How can we solve the invisible problem?</h2>
+          <p>Enter Spreadsheets - Spreadsheets have been used for data manipulation since ages because of the nice visual structure it provides to the data plus the powerful data editing features it supports. It can be thought of as a nice amalgamation of the 'Key-value edit' (providing visual structure) and the 'Bulk edit' (effective data manipulation) modes.</p>
+          <img src="images/data_editor/eureka.png" alt="eureka" width="100%">
+          <img src="images/data_editor/varykeyspread.png" alt="variables tab" width="140%">   
+        </section>
+
+        <section class="sec" id="section-5" data-index="5">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">STORY TWIST</h4>
+          <h2>The vision</h2>
+          <p>We defined our vision as: </p>
+          <img src="images/data_editor/vision.png" alt="vision" width="100%">
+          <img src="images/data_editor/bulk.png" alt="bulk" width="140%">
+
+        </section>
+
+
+        <!-- DESIGNING -->
+        <section class="sec" id="section-6" data-index="6">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">DESIGNING THE DATA EDITOR</h4>
+
+          <h2>Laying down the design principles</h2>
+          <br>
+          <ul style="margin-left: 20px; line-height: 3rem;">
+            <li>Focus on how quickly and effectively a user able to get their job done</li>
+            <li>Make workflows more efficient by supporting keyboard based workflows</li>
+            <li>Show as much information upfront as possible - don't limit what the user wants to see</li>
+            <li>Eliminate interaction by inferring context (by environment, history of past environments and interactions). Inspiration: Bret Victor <span style="font-weight:400;border-bottom: 1px solid currentColor;"><a href="http://worrydream.com/MagicInk/" target="_blank">(http://worrydream.com/MagicInk/)</a></span>
+              <ul style="margin-left: 40px;">
+                <li>The best way to eliminate interaction is through information rich graphic design that uses the environment and history</li>
+                <li>Interaction modes effectiveness: mouse < touch < speech < sheer amount of information that can be absorbed by the eye</li>
+              </ul>
+            </li>
+            <li>As far as possible, provide information <strong>without</strong> changing the context or interrupting the workflow (inline popups etc.)</li>
+            <li>Manage real estate wisely: Adding elements to the interface is easy; taking them off is hard. Once we dedicate real estate to an element,
+              we need to optimize it for various screen sizes and account for users asking for customization features. Consider having contexual
+              popups/show things inline etc.</li>
+          </ul>
+
+          <div class="pixel160"></div>   
+
+          <h2 style="padding-bottom: 40px;">What can be improved: usability issues in the key-value editor</h2>
+          <img src="images/data_editor/usability.png" alt="usability issues" width="130%">
+
+          <div class="pixel160"></div>
+
+          <h6 style="padding-bottom: 10px;">Designing to solve the usability issues</h6>
+          <h5>All the usability enhancements are <span style="font-weight:400;border-bottom: 1px solid currentColor;"><a href="http://blog.getpostman.com/2017/02/28/introducing-the-new-data-editor/" target="_blank">highlighted in this blog post.</a></span></h5>
+          
+          <div class="pixel100"></div>
+
+          <h6 style="padding-bottom: 10px;">Interactions inspired from spreadsheets</h6>
+          <p>I studied Google sheets, Microsoft Excel and Numbers since they were the most widely used spreadsheets. These interactions were inspired from spreadsheets:</p>
+          <ul style="margin-left: 20px;">
+            <li>Navigating the spreadsheet using keyboard arrow keys</li>
+            <li>Ability to resize columns</li>
+            <li>Bulk operations like bulk cut, copy, paste</li>
+            <li>Showing actions contexually</li>
+          </ul>
+
+          <div class="pixel100"></div>
+
+          <h6 style="padding-bottom: 10px;">Interactions different from widely used spreadsheets</h6>
+          <p>For each interaction we were borrowing from the spreadsheet model, we deeply thought about how it would fit into our context.</p>
+          <p>Firstly, if there is a large amount of data in a cell, <strong>spreadsheets provide 3 Text wrap options: overflow, wrap, clip.</strong> However, none of the three approaches worked for us. Overflow wouldn't work for us since there will be data in each cell. Wrap, at first, sounded like a good option because it satisfies our design principle of "Show the data". However, in Postman, values can be extremely large. This would result in hiding all the rows below it, which wasn't a great option. Finally, we came to a middle ground.</p>                 
+          <img src="images/data_editor/balance.png" alt="balance" width="100%">
+
+          <p>Secondly, we wanted to be come closer to our vision of eliminating the 'bulk-edit' mode. In bulk edit, the user can work with data freely i.e. there are no "modes". However, in many spreadsheets, there are two modes - a view mode and an edit mode. By default, each cell is in a "view mode" and double clicking would show the cursor in it. <strong>However, we did not want to have any modes in the data editor,</strong> which meant that the cursor will always be visible and the user can navigate freely through the data, and manipulate it effectively.</p>
+
+          <div class="pixel160"></div>
+
+          <h2>What we need more: analysing the 'Data' in the Data Editor</h2>
+          <p>I created an internal wiki page in Atlassian and analysed the different types of data. This was required since the data editor had to work for different types of data which could have different properties. Since this component was going to be a universal component, we had to make sure that it does work smoothly for request headers, variables, and other types.</p>
+          <img src="images/data_editor/analysingdata.png" alt="what_why_how" width="100%">
+
+          <h6>Designing for conveying and signifying</h6>
+          <img src="images/data_editor/converyexposeafford.png" alt="convery, expose, afford" width="100%">
+
+        </section>
+
+
+        <!-- Execution -->
+        <section class="sec" id="section-7" data-index="7">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">THE EXECUTION</h4>
+          <h2>From an idea to realisation</h2>
+          <p>We started building a prototype for this new editor immediately. I made a few designs, laid out the interactions, created a design document for the feature and paired with a developer to build out a prototype. I learned the value of embracing developmental constraints and designing the best possible solution (with low effort and high impact). Every day, we used to play with the prototype, share it with other people in the company, take their feedback and make improvements. Slowly, day by day, the prototype started to become more mature, real and gave good feels. Our hypothesis was getting strengthened. Finally, in a short span of 3 months, after releasing a small beta and rigorous user testing, both within and outside the company, we launched this new editor to production.</p>
+        </section>
+
+        <section class="sec" id="section-8" data-index="8">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">THE LEARNINGS</h4>
+          <h2>My core learnings</h2>
+          <p>Working on Postman’s Data Editor has been an immense learning experience for me. <strong>I understood the iterative nature of design.</strong> Sometimes it can take several iterations to reach a design which finally 'works'. Creating, sharing with team members, receiving feedback and iterating is the key. There's ALWAYS scope for improvement. The feedback we received on Github, Zendesk, Slack etc. from real users, helped us push improvements to the editor in subsequent app versions. <strong>I realised the importance of shipping fast and iterating quickly.</strong> Most importantly, while working on a product with such a large user base, <strong>I learned the importance of transitioning smoothly from an old to a new version.</strong> The older key-value editor had become a part of the muscle memory for all the Postman users, so it was paramount to take careful design decisions to avoid disrupting existing flows. Documenting core workflow changes, and communicating the change effectively to the users was a crucial task here. Thus, for a first version, we tried keeping the precedent functionality intact, while making the editor more powerful and usable.
+          <br><br>
+          <strong>Designing a developer product required me to understand how developers work.</strong> For example, developers love keyboard shortcuts, so this was an important consideration for me while designing product features. Routinely interacting with developers over different community channels helped me understand their likes and dislikes.</p>
+        </section>
+
+        <section class="sec" id="section-9" data-index="9">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">THE IMPACT</h4>
+          <h2>Understanding the impact</h2>
+          <p><strong>The Data Editor has now become a core component of Postman and is being used by more than 8 million developers worldwide.</strong> It fills me with happiness and satisfaction to see my work making lives of so many developers easier. Every time I see a user attach a screenshot of the Data Editor on GitHub to provide feedback, I zoom in to understand how they’re using it. The editor has also been extended to support ANY kind of data manipulation (and not just key value pairs), and is now being extended to support editing nested data (for example, JSON) amongst many other things.
+            <br><br>
+            Exciting times!</p>
+
+        </section>
+
+
+
+          
+
+
+
+
+      </article> 
+
+      <div class="pixel160"></div> 
+
+   </main>
+
+
+
+    <footer>      
+      <img src="images/footer.png" alt="decoration" width="260">
+      <p style="font-size: 14px;">Website design and content &copy; 2020 Bhawna Agarwal</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = "js/scroll.js"></script>
+    <script src="js/lightbox.js"></script>
+
+  </body>
+</html>
