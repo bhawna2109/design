@@ -85,9 +85,10 @@
           <br><br>
           <h4 style="color:#B51A17; padding-bottom: 15px;">OVERVIEW</h4>
           <h2>Background</h2>
-          <p>Postman is the only complete API development environment. It is a desktop application that provides a <strong>Graphical User Interface to work with APIs</strong> and is used by millions of developers around the world.
+          <p><span style="font-weight:400;border-bottom: 1px solid currentColor;"><a href="https://www.getpostman.com/" target="_blank">Postman</a></span>
+            is the only complete API development environment. It is a desktop application that provides a <strong>Graphical User Interface</strong> to work with <strong>APIs</strong> and is used by millions of developers around the world.
             <br><br>
-            Working with APIs involves working with <strong>data that is in the form of key : value.</strong> For example, the query parameters that are part of the API, the headers that are sent with the request, the variables used in the request, the JSON response that is received, and so on.</p>
+            Working with APIs involves working with data that is in the form of <strong>key : value pairs.</strong> For example, the query parameters that are part of the API, the headers that are sent with the request, the variables used in the request, the JSON response that is received, and so on.</p>
           
           <br><br>
           <h2>What is the data editor?</h2>
@@ -107,8 +108,8 @@
             <li>Understanding the product and the underlying needs of the users</li>
             <li>Ideation, wireframing and high fidelity mocks: creating high-fidelity mocks and prototypes for the final solution</li>
             <li>Working closely with engineers to ensure high-quality implementation.</li>
-            <li>Writing documentation and blog post. Created GIFs (in the blog post) to highlight the usability improvements.</li>
             <li>Consolidating user feedback received via various channels (Slack, Twitter, Github etc.), and using it to push further improvements to the feature</li>
+            <li>Wrote documentation and a blog post on the Postman blog.</li>       
           </ul>
         </section>
 
@@ -154,7 +155,7 @@
           <h2>Laying down the design principles</h2>
           <br>
           <ul style="margin-left: 20px; line-height: 3rem;">
-            <li>Focus on how quickly and effectively a user able to get their job done</li>
+            <li>Focus on how quickly and effectively users are able to get their job done</li>
             <li>Make workflows more efficient by supporting keyboard based workflows</li>
             <li>Show as much information upfront as possible - don't limit what the user wants to see</li>
             <li>Eliminate interaction by inferring context (by environment, history of past environments and interactions). Inspiration: Bret Victor <span style="font-weight:400;border-bottom: 1px solid currentColor;"><a href="http://worrydream.com/MagicInk/" target="_blank">(http://worrydream.com/MagicInk/)</a></span>
@@ -176,12 +177,13 @@
 
           <div class="pixel160"></div>
 
-          <h6 style="padding-bottom: 10px;">Designing to solve the usability issues</h6>
-          <h5>All the usability enhancements are <span style="font-weight:400;border-bottom: 1px solid currentColor;"><a href="http://blog.getpostman.com/2017/02/28/introducing-the-new-data-editor/" target="_blank">highlighted in this blog post.</a></span></h5>
+          <h2 style="padding-bottom: 10px;">Designing to solve the usability issues</h2>
+          <p>I wrote a blog post highlighting all the usability enhancements.</p>
+          <h5><span style="font-weight:400;border-bottom: 1px solid currentColor;"><a href="http://blog.getpostman.com/2017/02/28/introducing-the-new-data-editor/" target="_blank" style="font-weight: 500;">Read the blog post</a></span></h5>
           
           <div class="pixel100"></div>
 
-          <h6 style="padding-bottom: 10px;">Interactions inspired from spreadsheets</h6>
+          <h6>Interactions inspired from spreadsheets</h6>
           <p>I studied Google sheets, Microsoft Excel and Numbers since they were the most widely used spreadsheets. These interactions were inspired from spreadsheets:</p>
           <ul style="margin-left: 20px;">
             <li>Navigating the spreadsheet using keyboard arrow keys</li>
@@ -192,7 +194,7 @@
 
           <div class="pixel100"></div>
 
-          <h6 style="padding-bottom: 10px;">Interactions different from widely used spreadsheets</h6>
+          <h6>Interactions different from widely used spreadsheets</h6>
           <p>For each interaction we were borrowing from the spreadsheet model, we deeply thought about how it would fit into our context.</p>
           <p>Firstly, if there is a large amount of data in a cell, <strong>spreadsheets provide 3 Text wrap options: overflow, wrap, clip.</strong> However, none of the three approaches worked for us. Overflow wouldn't work for us since there will be data in each cell. Wrap, at first, sounded like a good option because it satisfies our design principle of "Show the data". However, in Postman, values can be extremely large. This would result in hiding all the rows below it, which wasn't a great option. Finally, we came to a middle ground.</p>                 
           <img src="images/data_editor/balance.png" alt="balance" width="100%">
@@ -205,7 +207,7 @@
           <p>I created an internal wiki page in Atlassian and analysed the different types of data. This was required since the data editor had to work for different types of data which could have different properties. Since this component was going to be a universal component, we had to make sure that it does work smoothly for request headers, variables, and other types.</p>
           <img src="images/data_editor/analysingdata.png" alt="what_why_how" width="100%">
 
-          <h6>Designing for conveying and signifying</h6>
+          <h2>Designing for conveying and signifying</h2>
           <img src="images/data_editor/converyexposeafford.png" alt="convery, expose, afford" width="100%">
 
         </section>
