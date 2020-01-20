@@ -68,9 +68,11 @@
             <li><a href="#section-4" data-index="4">Eureka moment</a></li>
             <li><a href="#section-5" data-index="5">Story twist</a></li>
             <li><a href="#section-6" data-index="6">Designing the data editor</a></li>
-            <li><a href="#section-7" data-index="7">The execution</a></li>
-            <li><a href="#section-8" data-index="8">The learnings</a></li>
-            <li><a href="#section-9" data-index="9">The impact</a></li>
+            <li><a href="#section-7" data-index="7">Usability improvements</a></li>
+            <li><a href="#section-8" data-index="8">Adding new capabilities</a></li>
+            <li><a href="#section-9" data-index="9">The execution</a></li>
+            <li><a href="#section-10" data-index="10">The learnings</a></li>
+            <li><a href="#section-11" data-index="11">The impact</a></li>
           </ul>     
           <img src="images/use_keyboard.png" alt="keyboard shortcuts" id="keyboard">
       </div>
@@ -148,7 +150,7 @@
         </section>
 
 
-        <!-- DESIGNING -->
+        <!-- DESIGNING the data editor -->
         <section class="sec" id="section-6" data-index="6">
           <h4 style="color:#B51A17; padding-bottom: 15px;">DESIGNING THE DATA EDITOR</h4>
 
@@ -169,8 +171,12 @@
               we need to optimize it for various screen sizes and account for users asking for customization features. Consider having contexual
               popups/show things inline etc.</li>
           </ul>
+        </section>
 
-          <div class="pixel160"></div>   
+
+        <!-- usability improvements -->
+        <section class="sec" id="section-7" data-index="7">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">USABILITY IMPROVEMENTS</h4>
 
           <h2 style="padding-bottom: 40px;">What can be improved: usability issues in the key-value editor</h2>
           <img src="images/data_editor/usability.png" alt="usability issues" width="130%">
@@ -200,9 +206,12 @@
           <img src="images/data_editor/balance.png" alt="balance" width="100%">
 
           <p>Secondly, we wanted to be come closer to our vision of eliminating the 'bulk-edit' mode. In bulk edit, the user can work with data freely i.e. there are no "modes". However, in many spreadsheets, there are two modes - a view mode and an edit mode. By default, each cell is in a "view mode" and double clicking would show the cursor in it. <strong>However, we did not want to have any modes in the data editor,</strong> which meant that the cursor will always be visible and the user can navigate freely through the data, and manipulate it effectively.</p>
+        </section>
 
-          <div class="pixel160"></div>
 
+        <!-- new capabilities -->
+        <section class="sec" id="section-8" data-index="8">
+          <h4 style="color:#B51A17; padding-bottom: 15px;">ADDING NEW CAPABILITIES</h4>
           <h2>What we need more: analysing the 'Data' in the Data Editor</h2>
           <p>I created an internal wiki page in Atlassian and analysed the different types of data. This was required since the data editor had to work for different types of data which could have different properties. Since this component was going to be a universal component, we had to make sure that it does work smoothly for request headers, variables, and other types.</p>
           <img src="images/data_editor/analysingdata.png" alt="what_why_how" width="100%">
@@ -214,13 +223,13 @@
 
 
         <!-- Execution -->
-        <section class="sec" id="section-7" data-index="7">
+        <section class="sec" id="section-9" data-index="9">
           <h4 style="color:#B51A17; padding-bottom: 15px;">THE EXECUTION</h4>
           <h2>From an idea to realisation</h2>
           <p>We started building a prototype for this new editor immediately. I made a few designs, laid out the interactions, created a design document for the feature and paired with a developer to build out a prototype. I learned the value of embracing developmental constraints and designing the best possible solution (with low effort and high impact). Every day, we used to play with the prototype, share it with other people in the company, take their feedback and make improvements. Slowly, day by day, the prototype started to become more mature, real and gave good feels. Our hypothesis was getting strengthened. Finally, in a short span of 3 months, after releasing a small beta and rigorous user testing, both within and outside the company, we launched this new editor to production.</p>
         </section>
 
-        <section class="sec" id="section-8" data-index="8">
+        <section class="sec" id="section-10" data-index="10">
           <h4 style="color:#B51A17; padding-bottom: 15px;">THE LEARNINGS</h4>
           <h2>My core learnings</h2>
           <p>Working on Postman’s Data Editor has been an immense learning experience for me. <strong>I understood the iterative nature of design.</strong> Sometimes it can take several iterations to reach a design which finally 'works'. Creating, sharing with team members, receiving feedback and iterating is the key. There's ALWAYS scope for improvement. The feedback we received on Github, Zendesk, Slack etc. from real users, helped us push improvements to the editor in subsequent app versions. <strong>I realised the importance of shipping fast and iterating quickly.</strong> Most importantly, while working on a product with such a large user base, <strong>I learned the importance of transitioning smoothly from an old to a new version.</strong> The older key-value editor had become a part of the muscle memory for all the Postman users, so it was paramount to take careful design decisions to avoid disrupting existing flows. Documenting core workflow changes, and communicating the change effectively to the users was a crucial task here. Thus, for a first version, we tried keeping the precedent functionality intact, while making the editor more powerful and usable.
@@ -228,7 +237,7 @@
           <strong>Designing a developer product required me to understand how developers work.</strong> For example, developers love keyboard shortcuts, so this was an important consideration for me while designing product features. Routinely interacting with developers over different community channels helped me understand their likes and dislikes.</p>
         </section>
 
-        <section class="sec" id="section-9" data-index="9">
+        <section class="sec" id="section-11" data-index="11">
           <h4 style="color:#B51A17; padding-bottom: 15px;">THE IMPACT</h4>
           <h2>Understanding the impact</h2>
           <p><strong>The Data Editor has now become a core component of Postman and is being used by more than 8 million developers worldwide.</strong> It fills me with happiness and satisfaction to see my work making lives of so many developers easier. Every time I see a user attach a screenshot of the Data Editor on GitHub to provide feedback, I zoom in to understand how they’re using it. The editor has also been extended to support ANY kind of data manipulation (and not just key value pairs), and is now being extended to support editing nested data (for example, JSON) amongst many other things.
