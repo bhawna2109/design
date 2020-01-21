@@ -13,6 +13,7 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="css/lightbox.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -20,6 +21,8 @@
     <title>Bhawna's UX Portfolio</title>
   </head>
   
+
+
   <body>
     <div class="skip"><a href="#skip-main">Skip to Main Content</a></div>
     
@@ -43,99 +46,89 @@
    <main>
     <section class="sec" id="page-title">
       <section id = "page-title-content">
-        <img src="images/postman-logo-horizontal-white.svg" alt="postman's logo" class ="descrp-logo">
-        <h1>Data Editor</h1>
-        <h3>Conceptualised, designed, and shipped the core component used to manipulate data in Postman</h3>
+        <img src="images/curate/curate_logo.png" alt="curate logo" class ="descrp-logo" style="width: 20%;">
+        <h1>Curate</h1>
+        <h3>Curate your personal knowledge repository - and make it a part of your long term memory</h3>
         <br>
         <br>
-        <p style="font-style:italic; color: #808080; padding-bottom: 0; font-size: 18px;">A story about taking a step back and noticing the invisible problem by asking the right questions, experimenting, and winning.</p>
-        <p><a href="http://blog.getpostman.com/2017/02/28/introducing-the-new-data-editor/" target="_blank" style="font-weight:400; color:#ff2b55; font-size: 16px; border-bottom: 1px solid currentColor;">Read the blog post</a> </p>
+        <p style="font-style:italic; color: #808080; padding-bottom: 60px; font-size: 18px;">Personal project</p>
       </section>
-      <!-- <img src="images/data_editor/data_editor.png" alt="new and improved data editor" class="img-cont" title="This new - and more powerful - data editor is an enhancement to the key-value editor and lets you view and manipulate data in a faster, more effective and elegant manner."> -->
     </section>
 
     <div id="side-nav">
         <ul>
-          <li><h5>Postman's data editor</h5></li>
-          <li><a href="#section-1" data-index="1">Responsibilities</a></li>
-          <li><a href="#section-2" data-index="2">How it started</a></li>
-          <li><a href="#section-3" data-index="3">The beginnings</a></li>
-          <li><a href="#section-4" data-index="4">The eureka moment</a></li>
-          <li><a href="#section-5" data-index="5">The execution</a></li>
-          <li><a href="#section-6" data-index="6">The learnings</a></li>
-          <li><a href="#section-7" data-index="7">What's next</a></li>
+          <li><h5>Curate</h5></li>
+          <li><a href="#section-1" data-index="1">The beginnings</a></li>
         </ul>
-        
-        <!-- <a href><div id="keyboard"><i class="material-icons md-48">keyboard</i>Keyboard</div></a> -->
         <img src="images/use_keyboard.png" alt="keyboard shortcuts" id="keyboard">
-        <!-- <a href="#" data-toggle="tooltip" title="Hooray!" id="keyboard">Hover over me</a> -->
+    </div>
 
 
+    <article class="container" id="skip-main">
 
-      </div>
+      <section class="sec" id="section-1" data-index="1">
+        <p style="padding: 10px 0;"><strong>Timeline:</strong> September 2019 - Present</p>
+        <br>
+        <h4 style="color:#B51A17; padding-bottom: 15px;">THE BEGINNINGS</h4> 
 
-     <article class="container" id="skip-main"> 
-       <section class="sec" id="section-1" data-index="1"> 
-        <h2>Responsibilities</h2>
-          <p>As the only designer working on this feature, my responsibilities included:</p>
-          <ul>
-            <li>Understanding the product and the underlying needs of the users</li>
-            <li>Ideation, wireframing and high fidelity mocks: creating high-fidelity mocks and prototypes for the final solution</li>
-            <li>Working closely with engineers to ensure high-quality implementation.</li>
-            <li>Writing documentation and blog post. Created GIFs (in the blog post) to highlight the usability improvements.</li>
-            <li>Consolidating user feedback received via various channels (Slack, Twitter, Github etc.), and using it to push further improvements to the feature</li>
-          </ul>
-        </section>
+        <h2>How it started</h2>
+        <p>In early 2016, I started reading a lot of articles online - articles about design, technology, startups, life, learning, and so on. Every now and then I stumbled upon an article that really clicked with me. Since our short term memory can hold new information for a limited time, and I didn’t want to lose what had clicked with me, and in what way.</p>
+        <p>I did a very simple thing - I created a ‘Numbers’ document and started updating it regularly. One column contained the date, another the URL, another column a sentence or two from the article that clicked with me, and my thoughts in a separate column.</p>
+        <img src="images/curate/finds.png" alt="finds of the day" style="width: 130%;">
+      
+        <h2>What I liked about this approach</h2>
+        <ul style="margin-left: 20px; padding-top: 20px;">
+          <li>I could visually <strong>see my knowledge grow over time.</strong> Over time, this spreadsheet grew, and served as my gold mine - it was my personal knowledge repository, and going through it each time just gave me SO much perspective!</li>
+          <li style="padding-top: 20px;"><strong>I really liked the chronological arrangement.</strong> I could see how each day counts and the Return On Investment on the extra effort I was putting in was apparent.</listyle="padding-top: 20px;">
+          <li style="padding-top: 20px;"><strong>Search</strong> - oh yes, this repository was searchable</li>
+          <li style="padding-top: 20px;">I had been using other tools like pocket and browser bookmarks for storing information here and there, but I didn't find myself referring back to those links often. Part of the reason was that <strong>these tools stored only the title and the link.</strong> When referring back, I liked reading <strong>'why I had stored the article', read the highlights, and rarely read the full article again.</strong></li>
+        </ul>
 
-        <section class="sec" id="section-2" data-index="2">
-          <h4 style="color:#B51A17; padding-bottom: 15px;">BACKGROUND</h4> 
-          <h2>Before the Data Editor was born</h2>
-          <p>The Postman app had a basic <strong>key-value editor</strong> where the key and value fields were like fields of a form. The only way to navigate between the keys and values was by using the 'tab' key, similar to how you'd navigate to fill out a form. There was a separate 'Bulk edit' mode which was used to navigate through the keys and values quickly using the keyboard shortcuts and perform bulk copy-paste actions. This key-value editor was being used at a lot of places in the Postman app since its inception, for example editing variables or request params. Our users were happy with it and we did not receive any feature requests around changing it.</p>
-          <p>I was working on a project which aimed at streamlining the concept of variables in Postman. Postman has variables with different scopes and it is a very powerful feature, but a lot of people didn't know about variables. For people who did, performing CRUD (Create, Read, Update, Delete) operations on variables was hard and tedious. I went back to the first principles and asked myself - what is it that a user would want to do when he opens the ‘Edit variables’ modal?. The answer was simple. Add, update, remove and view variable values. The key-value editor had limited capabilities, for example, if the variable value was long, there was no way to see the complete value. Postman is a developer product and developers LOVE keyboard shortcuts, but the key-value editor had almost no support for it. Our users had to switch to the 'Bulk Edit' mode to work with data quickly.</p>
-        </section>
+        <div class="pixel100"></div>  
 
-        <section class="sec" id="section-3" data-index="3">
-            <h2>The beginnings</h2>
-            <p>The most interesting thing about this project is that it did NOT start with a brief 'Redesigning the key-value editor'. We were not thinking of changing our key-value editor. There was no problem we had set to solve. No one even identified 'manipulating data in Postman' as a problem.</p>
-        </section>
+        <h2>However, over time, I realized there were a few limitations with this method:</h2>
+        <div class="pixel100"></div>  
 
-        <section class="sec" id="section-4" data-index="4">
-            <h2>The eureka moment</h2>
-            <p>Enter Spreadsheets - Spreadsheets have been used for data manipulation since ages because of the nice visual structure it provides to the data plus the powerful data editing features it supports. It can be thought of as a nice amalgamation of the 'Key-value edit' (providing visual structure) and the 'Bulk edit' (effective data manipulation) modes. It SUDDENLY made so much sense to all of us. Postman is a GUI tool to work with APIs, and working with APIs is effectively like working with data. Thus, creating a spreadsheet like framework as a core data manipulation component felt like an important, and a useful step to take.</p>
-        </section>
+        <img src="images/curate/problems.png" alt="problems with finds of the day" style="width: 130%;">
+        <div class="pixel100"></div>  
 
-        <section class="sec" id="section-5" data-index="5">
-          <h2>The execution</h2>
-          <p>We started building a prototype for this new editor immediately. I made a few designs, laid out the interactions, created a design document for the feature and paired with a developer to build out a prototype. I learned the value of embracing developmental constraints and designing the best possible solution (with low effort and high impact). Every day, we used to play with the prototype, share it with other people in the company, take their feedback and make improvements. Slowly, day by day, the prototype started to become more mature, real and gave good feels. Our hypothesis was getting strengthened. Finally, in a short span of 3 months, after releasing a small beta and rigorous user testing, both within and outside the company, we launched this new editor to production.</p>
-          <img src="images/data_editor/what_why_how.jpg" alt="what, why and how of the data editor" class="img-cont img-grid">
-          <img src="images/data_editor/CEA.jpg" alt="Detailing UX interactions" class="img-cont img-grid">
-        </section>
+        <ol style="margin-left: 20px; padding-top: 20px;">
+          <li><strong>This was limited to capturing data (URL's) while I was working on my laptop.</strong> I wanted to also capture the information I came across in a book, or while reading on my phone, or kindle, or for that matter, even a billboard that captured my attention while I was on a bus.</li >
+          <li style="padding-top: 20px;"><strong>Entering source information was tedious and time consuming</strong> - copying the URL, pasting it in the spreadsheet, entering a date. Moreover, while referring back, I was interested in skimming through <strong>my thoughts</strong>, and go to the source, if needed. </li>
+          <li style="padding-top: 20px;">Often, <strong>I liked multiple articles written by the same author or even multiple paragraphs from the same article or a book.</strong> For example, Paul Graham's essays. I wanted to store them near each other, so I started expanding this spreadsheet horizontally.  I had to find that row and then add this new article to a new cell. This meant a single cell had both the URL and the text - this caused the structure of the spreadsheet to become a bit off.</li>
+          <li style="padding-top: 20px;">I also found myself <strong>reading many articles around a certain topic</strong> - for example, I was interested in learning about the education domain at that time - so I stored those links near each other. Since it was a loosely held spreadsheet, I did not have any particular organisation. Sometimes I stored similar links one below the other, sometimes in the same row. <strong>I wanted a better way to organise information around a certain topic.</strong></li>
+          <li style="padding-top: 20px;"><strong>I wanted to store/highlight the sentences that I liked in the article.</strong> To do this, I used a chrome extension called ‘scrible’ to highlight those sentence. Scrible provided a link to a copy of the article with my highlights which I pasted into this spreadsheet - this meant using multiple tools and the process was not straightforward or simple. When I wanted to refer back to the original source, I had to click the link in the spreadsheet that opened it in the browser. My highlights and my thoughts on those highlights weren’t stored together.</li>
+          <li style="padding-top: 20px;">My information <strong>repository wasn’t available with me on a friend that goes wherever I go - my mobile phone,</strong> so I couldn’t refer back as often.</li>
+          <li style="padding-top: 20px;"><strong>Capturing source information and context while reading a book on a kindle was tedious</strong> - I had to manually enter the book name and the chapter name/number. There were some limitations like - 
+            <ul style="margin-left: 40px;">
+              <li>I couldn’t <strong>preserve the spatial context of the information,</strong> which helps in retention and recall.</li>
+              <li>Additionally, I couldn’t <strong>highlight the exact part of the information that I found interesting.</strong></li>
+            </ul>
+          </li>
+        </ol>
+        <br><br>
+        <p>After a few weeks, I started wondering, how can we simplify this process to increase my productivity? There were a few ideas I had, but never got around to delving deep into this.
 
-        <section class="sec" id="section-6" data-index="6">
-            <h2>The learnings</h2>
-            <p>Working on Postman’s Data Editor has been an immense learning experience for me. I understood the iterative nature of design. Sometimes it can take several iterations to reach a design which finally 'works'. Creating, sharing with team members, receiving feedback and iterating is the key. There's ALWAYS scope for improvement. The feedback we received on Github, Zendesk, Slack etc. from real users, helped us push improvements to the editor in subsequent app versions. I realised the importance of shipping fast and iterating quickly. Most importantly, while working on a product with such a large user base, I learned the importance of transitioning smoothly from an old to a new version. The older key-value editor had become a part of the muscle memory for all the Postman users, so it was paramount to take careful design decisions to avoid disrupting existing flows. Documenting core workflow changes, and communicating the change effectively to the users was a crucial task here. Thus, for a first version, we tried keeping the precedent functionality intact, while making the editor more powerful and usable. Designing a developer product required me to understand how developers work. For example, developers love keyboard shortcuts, so this was an important consideration for me while designing product features. Routinely interacting with developers over different community channels helped me understand their likes and dislikes.</p>
-        </section>
-
-        <section class="sec" id="section-7" data-index="7">
-            <h2>What's next</h2>
-            <p>The Data Editor has now become a core component of Postman and is being used by more than 4 million developers worldwide. Nothing makes me happier than seeing my work making lives of so many developers easier. Every time I see a user attach a screenshot of the Data Editor on GitHub to provide feedback, I zoom in to understand how they’re using it. The editor has also been extended to support ANY kind of data manipulation (and not just key value pairs), and is now being extended to support editing nested data (for example, JSON) amongst many other things. <br> <br> Exciting times!</p>
-        </section>
+        <br><br> I took this project up as part of my <strong>Interaction design class in Fall 2019</strong> where we had to do a semester long individual project. I saw the class as a perfect opportunity to work on something I cared about.</p>
+      
+        <p style="font-style: italic;">Please stay tuned for more information about this project!</p>
+      </section>
 
      </article>  
      <div class="pixel160"></div>   
-   
 
    </main>
 
 
 
-  <footer>      
-    <img src="images/footer.png" alt="decoration" width="260">
-    <p style="font-size: 14px;">Website design and content &copy; 2020 Bhawna Agarwal</p>
-  </footer>
+    <footer>      
+      <img src="images/footer.png" alt="decoration" width="260">
+      <p style="font-size: 14px;">Website design and content &copy; 2020 Bhawna Agarwal</p>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src = "js/scroll.js"></script>
-    
+    <script src="js/lightbox.js"></script>
+
   </body>
 </html>
