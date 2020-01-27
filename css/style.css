@@ -674,7 +674,7 @@ button.btn{
 
   #index-title{
     padding: 0;
-    padding-top: 200px;
+    padding-top: 160px;
     padding-bottom: 120px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -684,7 +684,7 @@ button.btn{
   }
 
   #index-title-content{
-    grid-column: 3/span 7;
+    grid-column: 4/span 6;
   }
 
   #index-side{
