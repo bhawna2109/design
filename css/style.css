@@ -674,8 +674,8 @@ button.btn{
 
   #index-title{
     padding: 0;
-    padding-top: 160px;
-    padding-bottom: 120px;
+    padding-top: 200px;
+    padding-bottom: 160px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 1.5em;
