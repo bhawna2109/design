@@ -51,6 +51,7 @@
 
 .social a h4{
   font-size: 16px;
+  color: #606060;
 }
 
 .social a h4::after{
@@ -61,6 +62,10 @@
 .social a h4.last::after{
   content: none;
   padding-right: 0;
+}
+
+.social a h4:hover{
+  color: black;
 }
 
 .cards {
