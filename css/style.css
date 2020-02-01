@@ -19,13 +19,13 @@
 .pixel160{
   grid-column: 1/-1;
   padding-bottom: 160px;
-  background-color: #fafafa;
+  background-color: #f4f4f4;
 }
 
 .pixel100{
   grid-column: 1/-1;
   padding-bottom: 100px;
-  background-color: #fafafa;
+  background-color: #f4f4f4;
 }
 
 #hello{
@@ -84,7 +84,7 @@
   border: 1px solid #d2d2d2;
   border-radius: 0.6rem;
   list-style-type: none;
-  background-color: #fafafa;
+  background-color: #f4f4f4;
 }
 
 .cards > ul > a > li:hover{
@@ -152,12 +152,12 @@ header{
 
 .container{
   /* padding-top: 64px; */
-  background-color: #fafafa;
+  background-color: #f4f4f4;
 }
 
 #side-nav{
   display: none;
-  background-color: #fafafa;
+  background-color: #f4f4f4;
 }
 
 .nav-up{
@@ -324,7 +324,7 @@ footer{
   bottom: 0;
   right: 0;
   overflow: hidden;
-  background-color: #fafafa;
+  background-color: #f4f4f4;
 }
 
 
@@ -340,7 +340,7 @@ footer{
 #intro{
   grid-column: 1/-1;
   height: 400px;
-  background: #fafafa;
+  background: #f4f4f4;
   border: none;
   text-align: center;
   padding-top: 70px;
