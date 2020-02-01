@@ -19,13 +19,13 @@
 .pixel160{
   grid-column: 1/-1;
   padding-bottom: 160px;
-  background-color: #f4f4f4;
+  background-color: #f5f5f5;
 }
 
 .pixel100{
   grid-column: 1/-1;
   padding-bottom: 100px;
-  background-color: #f4f4f4;
+  background-color: #f5f5f5;
 }
 
 #hello{
@@ -82,12 +82,20 @@
 
 .cards > ul > a > li {
   border: 1px solid #d2d2d2;
-  border-radius: .2rem;
+  border-radius: 0.6rem;
   list-style-type: none;
+  background-color: white;
 }
 
 .cards > ul > a > li:hover{
-  opacity: 80%;
+  -webkit-transition: all 200ms ease-in-out;
+  -webkit-transform: scale(1.015);
+  -ms-transition: all 200ms ease-in-out;
+  -ms-transform: scale(1.015);
+  -moz-transition: all 200ms ease-in-out;
+  -moz-transform: scale(1.015);
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0 40px #cccccc;
 }
 
 
@@ -96,6 +104,7 @@
   overflow: hidden;
   border-top-left-radius: .2rem;
   border-top-right-radius: .2rem;
+  border-radius: 0.55rem 0.55rem 0 0;
 }
 
 .cards > ul > a > li > figure > img {
@@ -143,12 +152,12 @@ header{
 
 .container{
   /* padding-top: 64px; */
-  background-color: #f4f4f4;
+  background-color: #f5f5f5;
 }
 
 #side-nav{
   display: none;
-  background-color: #f4f4f4;
+  background-color: #f5f5f5;
 }
 
 .nav-up{
@@ -315,7 +324,7 @@ footer{
   bottom: 0;
   right: 0;
   overflow: hidden;
-  background-color: #f4f4f4;
+  background-color: #f5f5f5;
 }
 
 
@@ -331,7 +340,7 @@ footer{
 #intro{
   grid-column: 1/-1;
   height: 400px;
-  background: #f4f4f4;
+  background: #f5f5f5;
   border: none;
   text-align: center;
   padding-top: 70px;
