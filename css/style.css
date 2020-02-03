@@ -83,15 +83,13 @@
 }
 
 #hello{
-  font-family: "Roboto mono", monospace;
+  font-family: 'Merriweather', serif;
   color: black;
-  font-weight: 600;
   font-size: 42px; 
   line-height: 60px;
   padding: 40px;
   padding-bottom: 0;
   padding-top: 0;
-  letter-spacing: -1px;
 }
 
 #hello:hover{
