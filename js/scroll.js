@@ -182,4 +182,3 @@ $("#side-nav").focus(function(){
 $("#side-nav").blur(function(){
     $("#keyboard").css("display", "none");
 })
-
