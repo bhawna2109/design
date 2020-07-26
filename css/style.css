@@ -295,7 +295,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: Roboto, Arial, sans-serif; 
-  color: #333333;
+  color: black;
   display: block;
   width: 100vw;
   -webkit-font-smoothing: antialiased;
@@ -306,7 +306,7 @@ h1{
   font-family: orpheuspro, serif;
   font-weight: 400;
   font-style: normal;  letter-spacing: 0.1px;
-  font-size: 1.8em;
+  font-size: 1.6em;
   line-height: 1.2em;
 }
 
@@ -334,18 +334,12 @@ h4{
   font-family: adobe-garamond-pro, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 h5{
   font-weight: 400;
   font-size: 18px;
-}
-
-h6{
-  font-size: 25px;
-  line-height: 1.6em;
-  font-weight: 300;
 }
 
 p{
@@ -519,12 +513,6 @@ footer{
   padding-bottom: 80px;
 }
 
-#index-title h6{
-  font-family: adobe-garamond-pro, serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 #index-side{
   padding-left: 40px;
   padding-top: 120px;
@@ -608,21 +596,28 @@ button.btn{
 @media screen and (min-width: 300px){
  
   h1{
-    font-size: 2em;
-    line-height: 1.2em;
+    font-size: 2.4em;
+    line-height: 1.4em;
   }
   
   h2{
-    font-size: 1.8em;
+    font-size: 2em;
     line-height: 1.5em;
   }
   
   h3{
-    font-size: 21px;
+    font-size: 25px;
+    line-height: 1.5em;
   }
 
   h4{
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 1.5em;
+  }
+
+  h5{
+    font-size: 16px;
+    line-height: 1.8em;
   }
 
   p{
@@ -744,8 +739,8 @@ button.btn{
   }
   
   h1{
-    font-size: 3em;
-    line-height: 1.3em;
+    font-size: 2.7em;
+    line-height: 1.4em;
   }
   
   h2{
@@ -761,6 +756,10 @@ button.btn{
 
   h4{
     font-size: 25px;
+  }
+
+  h5{
+    font-size: 18px;
   }
 
   p{
