@@ -200,6 +200,7 @@
 }
 
 .cards > ul > a > li > figcaption > h4 {
+  border-top: 2px solid #f2f2f2;
   padding: 1rem;
   padding-bottom: 0;
   font-size: 25px;
@@ -822,7 +823,7 @@ button.btn{
   #index-title{
     padding: 0;
     padding-top: 300px;
-    padding-bottom: 200px;
+    padding-bottom: 160px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 1.5em;
