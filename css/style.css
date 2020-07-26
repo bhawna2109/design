@@ -130,13 +130,13 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
-}
-
-.social a li{
-  list-style-type: none;
 } */
 
-/* .social a h4{
+/* .social a li{
+  list-style-type: none;
+}
+
+.social a h4{
   font-size: 20px;
   color: #606060;
 } */
@@ -144,13 +144,13 @@
 /* .social a h4::after{
   content: "·";
   padding: 5px;
-} */
+}
 
-/* .social a h4.last::after{
+.social a h4.last::after{
   content: none;
   padding-right: 0;
-} */
-/* 
+}
+
 .social a h4:hover{
   color: black;
 } */
@@ -202,7 +202,7 @@
 .cards > ul > a > li > figcaption > h4 {
   padding: 1rem;
   padding-bottom: 0;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .cards > ul > a > li > p {
@@ -329,7 +329,7 @@ h4{
   font-family: adobe-garamond-pro, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 h5{
@@ -373,7 +373,6 @@ nav a{
 
 nav a li:hover{
   color: black;
-  font-weight: 700;
   /* background: #E9e9e9;
   animation-name: fadeIn;
   animation-duration: 0.2s; */
@@ -741,8 +740,8 @@ button.btn{
   }
   
   h2{
-    font-size: 1.8em;
-    line-height: 1.8em;
+    font-size: 2em;
+    line-height: 2em;
   }
   
   h3{
