@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/uuh6dup.css">
     <link rel="stylesheet" href="https://use.typekit.net/uuh6dup.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bhawna's UX Portfolio</title>
   </head>
   
@@ -42,6 +43,7 @@
     
    
    <!-- ======MAIN========> -->
+  <div class = "index-color">
   <main>
     <!-- <div id="index-side" style="background-color: white; grid-column: 1/-1; text-align: center; padding-bottom: 160px;">
       <h4 id="hello">Bhawna Agarwal</h4>
@@ -52,27 +54,27 @@
     <section id="index-title" style="grid-column: 1/-1;">
       <section id="index-title-content" style="text-align: center;">
         <a href="#" title="pronounces name bhaav-naa"><h4 id="hello">Hello — I'm Bhawna!</h4></a>
-        <h4 style="font-size: 16px; color: #B51A17; font-weight: 700; padding-top: 10px;"><span style="color:#C74D46;">THINK.</span> <span style="color: #0E5BF5;">DESIGN.</span> <span style="color: #2E675D;">TELL.</span></h4>
+        <!-- <h4 style="font-size: 18px; color: #B51A17; font-weight: 900; padding-top: 10px;"><span style="color:#C74D46;">THINK ·</span> <span style="color: #0E5BF5;">DESIGN ·</span> <span style="color: #2E675D;">SHARE</span></h4> -->
         <br>
         <h6>I'm a UX Designer, currently a Master's student at the University of Michigan.</span></h6>
         <br>
         <h6>In the past, I've owned and worked on design projects at <span style="border-bottom: 1px solid currentColor;"><a href="#section-1">Microsoft</a></span> and <span style="border-bottom: 1px solid currentColor;"><a href="#section-2">Postman</a></span> — these experiences are now being used by millions of users worldwide!</h6>        
         <ul class="social" style="justify-content: center; padding-top: 40px;">
-          <a href="mailto:bhawna@umich.edu" target="_blank"><li><h4>bhawna@umich.edu</h4></li></a>
-          <a href="https://www.linkedin.com/in/bhawna2109" target="_blank"><li><h4>Linkedin</h4></li></a>
-          <a href="https://github.com/bhawna2109" target="_blank"><li><h4>Github</h4></li></a>
-          <a href="files/bhawna_resume.pdf" target="_blank"><li><h4 class="last">Resume</h4></li></a>
+          <a href="mailto:bhawna@umich.edu" target="_blank" class = "fa fa-envelope"></a>
+          <a href="https://www.linkedin.com/in/bhawna2109" target="_blank" class = "fa fa-linkedin"></a>
+          <a href="https://github.com/bhawna2109" target="_blank" class = "fa fa-github"></a>
         </ul>
         <br><br>
         <h4 id="hello" style="font-size: 28px;"><a href="#section-1">Design work ↓</a></h4>
       </section>
     </section>
 
+  
     <div id="side-nav">
         <ul>
           <li><h5>Work</h5></li>
-          <li><a href="#section-1" data-index="1">UX Designer at Microsoft</a></li>
-          <li><a href="#section-2" data-index="2">UX Designer at Postman</a></li>
+          <li><a href="#section-1" data-index="1">UX @ Microsoft</a></li>
+          <li><a href="#section-2" data-index="2">UX @ Postman</a></li>
           <br><br>
           <li><h5>Play</h5></li>
           <li><a href="#section-3" data-index="3">Personal project</a></li>
@@ -88,8 +90,8 @@
 
 <!-- MICROSOFT -->
       <section class="sec" id="section-1" data-index = "1">
-        <span style="color:#B51A17;"><h4>UX DESIGNER AT MICROSOFT</h4></span>
-        <p>Worked as a UX Designer on Microsoft's <span style="font-weight:400;border-bottom: 1px solid currentColor;"><a href="https://azure.microsoft.com/en-us/services/backup/" target="_blank">Azure Backup</a></span> Product</p>    
+        <span><h2>UX @ Microsoft</h2></span>
+        <p>I worked as a UX Designer at Microsoft from April '18 - July '19, where I was a part of the Azure Backup team. The Azure Backup team comprised of ~16 Product Managers, and over 100 developers.</p>    
 
         <section class="cards" id="cards">
           <ul>
@@ -110,10 +112,11 @@
         </section>
       
       </section>
+      <div class="pixel160"></div>   
 
   <!-- POSTMAN -->
       <section class="sec" id="section-2" data-index = "2">
-        <span style="color:#B51A17;padding:0;"><h4>UX DESIGNER AT POSTMAN</h4></span>
+        <h2>UX @ Postman</h2>
         <p><span style="border-bottom: 1px solid currentColor;"><a href="https://www.getpostman.com/" target="_blank">Postman</a></span> is the collaboration platform for API development used by 8 million+ developers. I joined the company when the team was small (21 people), and reported to the CEO. As part of a tight-knit team, I wore multiple hats, got an opportunity to own and work on design projects from start to finish, and learned a lot. Here are a few key projects that I worked on - all these experiences were created during November 2016 - December 2017, and are now being used by millions of users worldwide!</p>    
 
         <section class="cards" id="cards">
@@ -216,11 +219,13 @@
         </section>
       </section>
 
+  
+  <div class="pixel160"></div>   
 
   <!-- PLAY -->
   <!-- Personal -->
   <section class="sec" id="section-3" data-index = "3">
-    <span style="color:#B51A17;"><h4>PERSONAL PROJECT</h4></span>
+    <h2>Personal project</h2>
     <p>I believe that at any given time, we are surrounded by experiences waiting to be improved. Being a UX Designer has helped me see through experiences in day-to-day life wearing my <i>'oh, wait! there's a better way for this'</i> lens. Here is a personal project that attempts to leverage design thinking to solve a problem that initially existed only in my own head. This is designed for the most widely adopted computing medium today - Digital Interfaces.</p>    
   
     <section class="cards" id="cards">
@@ -243,9 +248,11 @@
   
   </section>
 
+<div class="pixel160"></div>   
+
 <!-- Tangible interfaces -->
       <section class="sec" id="section-4" data-index = "4">
-        <span style="color:#B51A17;"><h4>TANGIBLE INTERFACES</h4></span>
+        <h2>Tangible interfaces</h2>
         <p>During my undergraduate studies in HCI, I got fascinated by the domain of tangible interfaces. I worked on these projects as an undergrad - when my thoughts were more open and wild <span style='font-size:20px;'>&#128512;</span>. I hope you have fun going through these explorations!</p>    
       
         <section class="cards" id="cards">
@@ -293,9 +300,12 @@
         </section>
       </section>
 
+    
+    <div class="pixel160"></div>   
+
       <!-- Graphic design -->
       <section class="sec" id="section-5" data-index = "5">
-        <span style="color:#B51A17;"><h4>FUN WITH GRAPHIC DESIGN</h4></span>      
+        <h2>Fun with graphic design</h2>    
         <section class="cards" id="cards">
           <ul>
             <a href="graphic.html">
@@ -315,9 +325,12 @@
       
       </section>
 
+    
+      <div class="pixel160"></div>   
+
       <!-- Building this website -->
       <section class="sec" id="section-6" data-index = "6" style="padding-bottom: 160px;">
-      <span style="color:#B51A17;"><h4>AND IN THE END...IT DOES TRULY MATTER!</h4></span>
+      <h2>And in the end...it truly does matter!</h2></span>
       <p style="color: #808080; padding: 0; padding-top: 10px; font-size: 16px;">&#127926 insert music from Linkin Park's song &#127926</p>
 
       <p style="padding-top: 30px; font-weight: 700; padding-bottom: 0;">My learnings from the process of building this website:</p>    
@@ -328,12 +341,14 @@
     </article>
   
   </main>
+</div>
 
 
   <footer>      
     <img src="images/footer.png" alt="decoration" width="260">
     <p style="font-size: 14px;">Website design and content &copy; 2020 Bhawna Agarwal</p>
   </footer>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src = "js/scroll.js"></script>

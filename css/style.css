@@ -1,3 +1,18 @@
+.fa {
+  padding: 12px;
+  font-size: 3px;
+  width: 20px;
+  opacity: 0.5;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+}
+
+
 .tooltip,
 .arrow:after {
   background: black;
@@ -76,6 +91,10 @@
   background-color: #f4f4f4;
 }
 
+.index-color .pixel160{
+  background-color: #fff;
+}
+
 .pixel100{
   grid-column: 1/-1;
   padding-bottom: 100px;
@@ -105,7 +124,7 @@
   color: #B51A17;
 }
 
-.social{
+/* .social{
   padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -115,26 +134,26 @@
 
 .social a li{
   list-style-type: none;
-}
+} */
 
-.social a h4{
-  font-size: 16px;
+/* .social a h4{
+  font-size: 20px;
   color: #606060;
-}
+} */
 
-.social a h4::after{
+/* .social a h4::after{
   content: "·";
   padding: 5px;
-}
+} */
 
-.social a h4.last::after{
+/* .social a h4.last::after{
   content: none;
   padding-right: 0;
-}
-
+} */
+/* 
 .social a h4:hover{
   color: black;
-}
+} */
 
 .cards {
   padding: 2rem;
@@ -152,7 +171,7 @@
   border: 1px solid #d2d2d2;
   border-radius: 0.6rem;
   list-style-type: none;
-  background-color: #f4f4f4;
+  background-color: #fff;
 }
 
 .cards > ul > a > li:hover{
@@ -183,12 +202,12 @@
 .cards > ul > a > li > figcaption > h4 {
   padding: 1rem;
   padding-bottom: 0;
-  font-size: 0.90rem;
+  font-size: 18px;
 }
 
 .cards > ul > a > li > p {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 32px;
   padding: 1rem;
   color: #666666;
   padding-top: 8px;
@@ -197,7 +216,7 @@
 .cards > ul > a > li > h4 {
   padding: 1rem;
   padding-top:0;
-  font-size: .9rem;
+  font-size: 20px;
 }
 
 
@@ -223,9 +242,17 @@ header{
   background-color: #f4f4f4;
 }
 
+.index-color .container{
+  background-color: #fff;
+}
+
 #side-nav{
   display: none;
   background-color: #f4f4f4;
+}
+
+.index-color #side-nav{
+  background-color: #fff;
 }
 
 .nav-up{
@@ -266,34 +293,43 @@ body{
   color: #333333;
   display: block;
   width: 100vw;
+  -webkit-font-smoothing: antialiased;
 }
 
 
 h1{
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: normal;  letter-spacing: 0.1px;
   font-size: 1.8em;
   line-height: 1.2em;
 }
 
 h2{
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: normal;  letter-spacing: 0.1px;
   font-size: 1.4em;
   line-height: 1.4em;
-  font-weight: 600;
 }
 
 h3{
-  font-family: "Roboto slab", serif;
-  font-size: 16px;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
   line-height: 1.5em;
   padding-top: 20px;
-  color: #f4f4f4;
+  color: #fff;
 }
 
 h4{
-  font-family: "Roboto mono", monospace;
-  font-weight: 300;
-  /* font-family: adobe-garamond-pro, serif;
+  /* font-family: "Roboto mono", monospace;
+  font-weight: 300; */
+  font-family: adobe-garamond-pro, serif;
   font-weight: 400;
-  font-style: normal; */
+  font-style: normal;
+  font-size: 24px;
 }
 
 h5{
@@ -302,8 +338,8 @@ h5{
 }
 
 h6{
-  font-size: 24px;
-  line-height: 1.8em;
+  font-size: 25px;
+  line-height: 1.6em;
   font-weight: 300;
 }
 
@@ -399,7 +435,7 @@ footer{
   bottom: 0;
   right: 0;
   overflow: hidden;
-  background-color: #f4f4f4;
+  background-color: #fff;
 }
 
 
@@ -472,7 +508,7 @@ footer{
 }
 
 #index-title{
-  background-color: white ;
+  background-color: #F9F9F9 ;
   color: black;
   padding: 40px;
   padding-top: 100px;
@@ -484,7 +520,6 @@ footer{
   font-weight: 400;
   font-style: normal;
 }
-
 
 #index-side{
   padding-left: 40px;
@@ -575,11 +610,11 @@ button.btn{
   
   h2{
     font-size: 1.8em;
-    line-height: 1.5em;
+    line-height: 2em;
   }
   
   h3{
-    font-size: 18px;
+    font-size: 21px;
   }
 
   p{
@@ -617,8 +652,8 @@ button.btn{
   } */
 
   body{
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 2em;
     letter-spacing: 0.1px;
     /* margin: 1.5em; */
   }
@@ -666,8 +701,12 @@ button.btn{
   #side-nav h5{
     padding: 16px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 30px;
+  }
+
+  #side-nav a{
+    font-size: 18px;
   }
 
   #side-nav ul {
@@ -702,16 +741,14 @@ button.btn{
   }
   
   h2{
-    font-size: 2em;
-    line-height: 1.6em;
-    font-weight: 700;
+    font-size: 1.8em;
+    line-height: 1.8em;
   }
   
   h3{
-    font-size: 20px;
+    font-size: 28px;
     line-height: 2em;
     padding-top: 30px;
-    font-weight: 100;
   }
 
   p{
@@ -773,7 +810,7 @@ button.btn{
 
   #index-title{
     padding: 0;
-    padding-top: 280px;
+    padding-top: 300px;
     padding-bottom: 200px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
