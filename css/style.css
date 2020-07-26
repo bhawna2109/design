@@ -225,12 +225,16 @@ html{
 }
 
 header{
-  background: #f9f9f9;
+  background: #fff;
   position: fixed;
   top: 0;
   transition: top 0.2s ease-in-out;
   height: 64px;
   width: 100%;
+}
+
+#index-header{
+  background-color: #f9f9f9;
 }
 
 /* .index-container{
@@ -329,7 +333,7 @@ h4{
   font-family: adobe-garamond-pro, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 h5{
@@ -609,11 +613,15 @@ button.btn{
   
   h2{
     font-size: 1.8em;
-    line-height: 2em;
+    line-height: 1.5em;
   }
   
   h3{
     font-size: 21px;
+  }
+
+  h4{
+    font-size: 20px;
   }
 
   p{
@@ -741,13 +749,17 @@ button.btn{
   
   h2{
     font-size: 2em;
-    line-height: 2em;
+    line-height: 1.4em;
   }
   
   h3{
     font-size: 28px;
     line-height: 2em;
     padding-top: 30px;
+  }
+
+  h4{
+    font-size: 25px;
   }
 
   p{
@@ -873,14 +885,25 @@ button.btn{
 
 
   #about-img{
-    grid-column: 3/span 3;
-    padding:0;
+    grid-column: 3/span 4;
+    padding-top: 100px;
+    padding-bottom: 0;
     width: 100%;
   }
 
   #about-desc{
     padding-left: 20px;
-    grid-column: 6/span 5;
+    grid-column: 3/span 8;
+  }
+
+  #journey-content{
+    padding: 140px 0;
+    grid-column: 3/span 8;
+  }
+
+  #inspiration-content{
+    padding: 140px 0;
+    grid-column: 3/span 8;
   }
 
   .gallery{
