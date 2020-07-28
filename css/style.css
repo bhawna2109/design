@@ -156,15 +156,31 @@
 } */
 
 .cards {
+  margin: 24px 0 0 0;
   padding: 2rem;
   padding-left: 0;
   padding-right: 0;
 }
 
+.cards-wide {
+  grid-column: 3/ span 7;
+}
+
+.cards-wide > ul{
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.cards-narrow {
+  grid-column: 3/ span 10;
+}
+
+.cards-narrow > ul{
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+}
+
 .cards > ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 2rem;
+  grid-gap: 2.6rem;
 }
 
 .cards > ul > a > li {
@@ -187,7 +203,7 @@
 
 
 .cards > ul > a > li > figure {
-  max-height: 180px;
+  max-height: 220px;
   overflow: hidden;
   border-top-left-radius: .2rem;
   border-top-right-radius: .2rem;
@@ -502,6 +518,10 @@ footer{
 
 
 .sec{
+  padding: 100px 40px;
+}
+
+.cards{
   padding: 100px 40px;
 }
 
@@ -863,6 +883,11 @@ button.btn{
     grid-column: 3/span 7;
     padding-bottom: 0;
   }
+
+  .cards{
+    padding: 100px 0;
+    padding-bottom:0;
+  }
   
   #eureka{
     grid-column: 1/-1;
@@ -917,8 +942,15 @@ button.btn{
     padding:0;
   }
 
- 
 }
+
+
+@media screen and (min-width: 1250px){
+  .cards-wide > ul{
+    grid-template-columns: repeat(auto-fit, minmax(840px, 840px));
+  }
+}
+
 
 /* <!-- ======REDUCED MOTION========> --> */
 
