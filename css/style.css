@@ -500,6 +500,14 @@ footer{
   background-color: white;
 }
 
+#journey-content{
+  padding: 40px;
+}
+
+#inspiration-content{
+  padding: 40px;
+}
+
 #about-img{
   width: 100%;
   margin: 0 auto;
@@ -921,7 +929,6 @@ button.btn{
   }
 
   #about-desc{
-    padding-left: 20px;
     grid-column: 3/span 8;
   }
 
