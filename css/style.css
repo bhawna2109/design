@@ -156,9 +156,8 @@
 } */
 
 .cards{
-  padding: 2rem;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .cards {
@@ -528,9 +527,9 @@ footer{
   padding: 100px 40px;
 }
 
-.cards{
+/* .cards{
   padding: 100px 40px;
-}
+} */
 
 #index-title{
   background-color: #F9F9F9 ;
@@ -681,10 +680,10 @@ button.btn{
     padding:0
   } */
 
-  .cards{
+  /* .cards{
     margin: 0 40px 0 0;
 
-  }
+  } */
 
   body{
     font-size: 20px;
@@ -897,8 +896,7 @@ button.btn{
   }
 
   .cards{
-    padding: 100px 0;
-    padding-bottom:0;
+    padding: 0;
   }
   
   #eureka{
