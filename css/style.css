@@ -91,6 +91,12 @@
   background-color: #f4f4f4;
 }
 
+.space160{
+  grid-column: 1/-1;
+  padding-bottom: 160px;
+  background-color: white;
+}
+
 .index-color .pixel160{
   background-color: #fff;
 }
@@ -527,6 +533,10 @@ footer{
   padding: 100px 40px;
 }
 
+.proj-sec{
+  padding: 100px 40px;
+}
+
 /* .cards{
   padding: 100px 40px;
 } */
@@ -692,7 +702,12 @@ button.btn{
     /* margin: 1.5em; */
   }
 
-  main{
+  /* main{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+  } */
+
+  #index-grid{
     display: grid;
     grid-template-columns: min-content 1fr;
   }
@@ -850,6 +865,14 @@ button.btn{
     grid-column-gap: 1.5em;
   }
 
+  .proj-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1.5em;
+    /* margin: 24px; */
+    background-color: white;
+  }
+
   #index-title{
     padding: 0;
     padding-top: 200px;
@@ -893,6 +916,16 @@ button.btn{
     padding: 100px 0;
     grid-column: 3/span 7;
     padding-bottom: 0;
+  }
+
+  .proj-sec{
+    padding: 100px 0;
+    grid-column: 4/span 6;
+    padding-bottom: 0;
+  }
+
+  .proj-sec-full{
+    grid-column: 1/-1;
   }
 
   .cards{
