@@ -182,3 +182,15 @@ $("#side-nav").focus(function(){
 $("#side-nav").blur(function(){
     $("#keyboard").css("display", "none");
 })
+
+
+// video playback 
+
+// var vid = document.getElementById("video1");
+// vid.playbackRate = 1.5;
+
+var vids = document.getElementsByClassName("video-style");
+var i;
+for (i = 0; i < vids.length; i++) {
+  vids[i].playbackRate = 1.5;
+}

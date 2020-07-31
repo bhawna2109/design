@@ -60,9 +60,10 @@
     </section>
 
 
-    <article class="proj-container" id="skip-main">
-
-      <div class="space160"></div>   
+    <article class="proj-container proj-container-white" id="skip-main">
+      <section class="proj-sec-full">
+        <img src="images/find_replace2/role.jpg" alt="iteration" width="100%" style="padding: 0;"> 
+      </section>
 
       <section class="proj-sec">
         <h4 style="color:#4578AF; padding-bottom: 15px;">Problem</h4> 
@@ -72,19 +73,21 @@
         <p>Find and replace was a long awaited feature in Postman - we had been getting several feature requests over the years around supporting bulk refactoring in the app.</p>
       </section>
 
-      <div class="space160"></div>   
 
       <section class="proj-sec-full">
         <img src="images/find_replace2/find_replace_hero.jpg" alt="iteration" width="100%"> 
       </section>
 
+
       <section class="proj-sec">
         <h4 style="color:#4578AF; padding-bottom: 15px;">The challenge</h4> 
         <h2>Support find and replace (bulk refactoring) in Postman</h2>
         <p>Our goal for the project was to support finding and replacing text, code, and variables in bulk in Postman. The higher level goal was to reduce the time that users spent in finding and replacing things one by one, and thus increasing their productivity.</p>
-
       </section>
+    </article>
 
+
+    <article class="proj-container proj-container-grey">
       <section class="proj-sec"> 
         <h4 style="color:#4578AF; padding-bottom: 15px;">Responsibilities</h4> 
         <h2>My role</h2>
@@ -98,65 +101,69 @@
           <li>Working closely with engineers to ensure high-quality implementation</li>
           <li>Writing documentation</li>
         </ul>     
-      </section>
+      </section>  
+    </article>
 
-      <section class="proj-sec" id="section-3" data-index="3">
-        <h4 style="color:#4578AF; padding-bottom: 15px;">Design decisions</h4> 
-        <h2>UX ideologies behind certain design decisions</h2>
-        <p>I created an internal team wiki page and wrote down the design rationale and some UX ideologies behind certain design decisions.</p>
-        <a href="images/find_replace/find_replace_design_decisions.jpg" data-lightbox="image-1" data-title="UX ideologies behind certain design decisions"><img src="images/find_replace/find_replace_design_decisions.jpg" alt="UX ideologies behind certain design decisions" width="100%"></a>
-      </section>
 
-      <section class="proj-sec" id="section-4" data-index="4">
-        <h4 style="color:#4578AF; padding-bottom: 15px;">Eearly iterations</h4> 
-        <h2>Wireframing</h2>
-        <p>These are a few early iterations for the feature - highlights the importance of 'trimming down' a design. I learned that <strong>adding interface elements is easy, but taking them off is hard.</strong> Thus, it is very important to utilise the real estate judiciously and keep ONLY the absolutely required interface elements for a cleaner and minimalistic design that 'works'.</p>
-        <div class="caption">
-          <a href="images/find_replace/iteration1.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration1.jpg" alt="iteration" width="100%"></a>  
-          <p>Iteration 1</p>
+    <article class="proj-container proj-container-white">
+      <section class="proj-sec" style="text-align: center;">
+        <h4 style="color:#4578AF; padding-bottom: 15px;">Solution</h4> 
+        <h2>Introducing Find and Replace in Postman</h2>
+      </section>
+      <section class="proj-sec-eighty">
+        <h4 class = "video-caption">Find anything across the Postman app</h4>
+        <p class = "video-desc">To find something, simply click on the “Find” icon in the status bar or hit ‘CMD+SHIFT+f’ on Mac or ‘CTRL + SHIFT + f’ on Windows and Linux devices. Enter your search query and hit 'Enter' or click on the Find button.</p>
+        <div style="text-align: center;">
+          <video autoplay loop muted class="video-style" id="video1">
+            <source src= "images/find_replace2/videos/find_anything.mov" type="video/mp4">
+          </video>
         </div>
-        <div class="caption">
-          <a href="images/find_replace/iteration1.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration1.jpg" alt="iteration" width="100%"></a>  
-          <p>Iteration 2</p>
+        <div class="space160"></div>
+        <h4 class = "video-caption">Choose specific Postman entities to find in</h4>
+        <p></p>
+        <div style="text-align: center;">
+          <video autoplay loop muted class="video-style">
+            <source src= "images/find_replace2/videos/find_anything_limited.mov" type="video/mp4">
+          </video>
         </div>
-        <div class="caption">
-          <a href="images/find_replace/iteration2.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration2.jpg" alt="iteration" width="100%"></a>  
-          <p>Iteration 3</p>
+        <div class="space160"></div>
+        <h4 class = "video-caption">Powerful options to help narrow down search results</h4>
+        <p></p>
+        <div style="text-align: center;">
+          <video autoplay loop muted class="video-style">
+            <source src= "images/find_replace2/videos/narrow_search.mov" type="video/mp4">
+          </video>
         </div>
-        <div class="caption">
-          <a href="images/find_replace/iteration3.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration3.jpg" alt="iteration" width="100%"></a>  
-          <p>Iteration 4/p>
-        </div>
-        <div class="caption">
-          <a href="images/find_replace/iteration4.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration4.jpg" alt="iteration" width="100%"></a>  
-          <p>Iteration 5</p>
-        </div>
-        <div class="caption">
-          <a href="images/find_replace/iteration5.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration5.jpg" alt="iteration" width="100%"></a>  
-          <p>Iteration 6</p>
-        </div>
-        <div class="caption">
-          <a href="images/find_replace/iteration6.jpg" data-lightbox="image-2" data-title="iteration"><img src="images/find_replace/iteration6.jpg" alt="iteration" width="100%"></a>       
-          <p>Iteration 7</p>
+        <div class="space160"></div>
+        <h4 class = "video-caption">Replace all in a single click</h4>
+        <p></p>
+        <div style="text-align: center;">
+          <video autoplay loop muted class="video-style">
+            <source src= "images/find_replace2/videos/replace_all.mov" type="video/mp4">
+          </video>
         </div>
       </section>
+      <div class="space160"></div>
+     </article>
 
-      <section class="proj-sec" id="section-5" data-index="5">
-        <h4 style="color:#4578AF; padding-bottom: 15px;">Final design</h4> 
-        <h2>Converging on one design</h2>
-        <p>After a lot of iteration, we converged on one design that worked. I created an <strong>invision prototype</strong> to highlight detailed interactions.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gAB__aG9TXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding-top: 30px; width: 100%;"></iframe>
-      </section>
 
-      <section class="proj-sec" id="section-6" data-index="6">
-        <h4 style="color:#4578AF; padding-bottom: 15px;">Testing</h4> 
-        <h2>How is find and replace being used?</h2>
-        <p>As part of the design process, the designers had to lay out the user interactions that were valuable to track. As the data started coming in, we used Microsoft's Power BI to analyse and make sense of the data (by working closely with the data science team).</p>
-        <div class="caption">
-          <a href="images/find_replace/test.png" data-lightbox="image-3" data-title="test"><img src="images/find_replace/test.png" alt="test" width="100%"></a>
-          <p>In app analytics events</p>
-        </div>
-      </section>
+     <article class="proj-container proj-container-grey">
+      <section class="proj-sec"> 
+        <h4 style="color:#4578AF; padding-bottom: 15px;">The process</h4> 
+        <h2>To start off, I wanted to understand the 'Why', 'Who', 'When' and 'Where' which would inform my designs for this new feature</h2>
+        <p>I was the sole designer on this feature, and worked in close collaboration with one developer.</p>
+        <p>As the only designer working on this feature, my responsibilities included:</p>
+        <ul style="margin-left: 20px;">
+          <li>Understanding the underlying need of the users</li>
+          <li>Learning about bulk refactoring in code</li>
+          <li>Wireframing: Understanding the Postman interface and creating wireframes to identify the best real estate to introduce this feature</li>
+          <li>Creating high-fidelity mocks and prototypes for the final solution</li>
+          <li>Working closely with engineers to ensure high-quality implementation</li>
+          <li>Writing documentation</li>
+        </ul>     
+      </section>  
+
+
 
       <section class="proj-sec" id="section-7" data-index="7">
         <h4 style="color:#4578AF; padding-bottom: 15px;">Core learning</h4> 
