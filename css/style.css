@@ -286,7 +286,7 @@ header{
 }
 
 #index-header{
-  background-color: #f9f9f9;
+  background-color: #F4F6F8;
 }
 
 /* .index-container{
@@ -574,7 +574,7 @@ footer{
 } */
 
 #index-title{
-  background-color: #F9F9F9 ;
+  background-color: #F4F6F8 ;
   color: black;
   padding: 40px;
   padding-top: 100px;
@@ -909,7 +909,7 @@ button.btn{
   }
 
   .proj-container-grey{
-    background-color: #FAFAFA;
+    background-color: #F4F6F8;
   }
 
   #index-title{
