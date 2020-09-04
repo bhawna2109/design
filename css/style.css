@@ -122,6 +122,12 @@ video{
   background-color: white;
 }
 
+.space100{
+  grid-column: 1/-1;
+  padding-bottom: 100px;
+  background-color: white;
+}
+
 .index-color .pixel160{
   background-color: #fff;
 }
@@ -152,7 +158,7 @@ video{
   -moz-transition: all 200ms ease-in-out;
   -moz-transform: scale(1.015);
   transition: all 200ms ease-in-out;
-  color: #B51A17;
+  color: #F55F47;
 }
 
 /* .social{
@@ -430,7 +436,7 @@ nav{
 }
 
 #nav-active{
-  color: #B51A17;
+  color: #F55F47;
   font-weight: 700;
 }
 
@@ -807,7 +813,7 @@ button.btn{
   }
 
   #side-nav ul li a.current {
-    color:#B51A17;
+    color:#F55F47;
   }
   
   h1{
