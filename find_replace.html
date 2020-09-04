@@ -189,7 +189,7 @@
           <li>Optimize UX for fast loading times whenever possible</li>
         </ul>
       </section>
-       <section class="proj-sec" style="padding-top: 30px;">
+       <section class="proj-sec" style="padding-top: 30px; padding-bottom: 0;">
         <h4 style="color:#F55F47; padding-bottom: 15px;">Comparative analysis</h4> 
         <h2>What works and does not work in comparative developer products?</h2>
         <p>I analysed other developer products which have the find and replace functionality to understand:</p>
@@ -231,24 +231,30 @@
       <section class="proj-sec-full">
         <img src="images/find_replace2/sketches.png" alt="early sketches" width="100%"> 
       </section>
-      <section class="proj-sec"> 
+      <section class="proj-sec" style="padding-bottom: 0px;"> 
         <h2>Bringing up the find and replace bottom sheet</h2>
         <p>We found from comparative analysis that CMD/CTRL+SHIFT+F is an expected shortcut to bring up find and replace (all) across all developer tools. To preserve user's existing mental model, we decided on having the same shortcut to bring up the "Find and replace" bottom sheet. We also added "Esc" key for exiting find and replace.</p>   
         <p>In addition to a keyboard shortcut, we also added a prominent find and replace icon in the bottom bar. Clicking this icon would open up a bottom sheet to perform find and replace. We intentionally decided to not make this bottom sheet a modal in order to NOT make the rest of the interface non usable.</p>   
       </section>
-      <section class="proj-sec" style="padding-top: 20px;"> 
+      <section class="proj-sec-full">
+        <img src="images/find_replace2/wireframes/bottom_sheet.png" alt="bottom sheet" width="100%"> 
+      </section>
+      <section class="proj-sec" style="padding-bottom: 40px;"> 
         <h2>Deciding the layout based on the most important tasks</h2>
         <p>I explored a few different layouts to help the user complete the most important tasks. We decided to put function over aesthetics following our design principle "Show as much information upfront as possible - don't limit what the user wants to see" and "As far as possible, provide information without changing the context or interrupting the workflow"</p>   
       </section>
       <section class="proj-sec-full">
         <img src="images/find_replace2/wireframes/layout.png" alt="layout explorations" width="100%"> 
       </section>
-      <section class="proj-sec"> 
+      <section class="proj-sec" style="padding-bottom: 0px;"> 
         <h2>Find "what"</h2>
         <p>To solve for this task, I included a text box to enter the search query. In addition, I added the options "Regex" and "Ignore case" to allow for more flexible searches (implementing our finding from comparative analysis).</p>   
         <p>Our comparative analysis also showed that some tools support real-time search which is a good-to-have. However, there were implementation challenges associated with showing search results as the user was typing. Thus, we decided to show search results only when an explicit "Find" action was triggered by the user.</p>   
       </section>
-      <section class="proj-sec" style="padding-top: 20px;"> 
+      <section class="proj-sec-full">
+        <img src="images/find_replace2/wireframes/find_what.png" alt="find what" width="100%"> 
+      </section>
+      <section class="proj-sec"> 
         <h2>Find "where"</h2>
         <p>From our <span style="border-bottom: 1px solid currentColor;"><a href="#job-stories">job stories</a></span>, we know that users wanted the ability to find within specific Postman entities (current collection vs all collections). In addition, our job stories also show that users wanted to search within specific "fields" within an entity, for example, "URL field" of a request or "tests field" of a request. It was clear that we needed to support the ability to view search results for specific Postman entities (collections, environments, globals), as well as specific fields within those entities. I noted down all the Postman entities and the fields within each entity (which were different for each entity).</p>   
       </section>
@@ -311,7 +317,7 @@
       </section>
        <section class="proj-sec" style="text-align: right;">
          <h4 style="color:#F55F47; padding-bottom: 5px;">Next project</h4> 
-         <a href="librarian.html"><h4 style="color: #666666;">Librarian ></h4></a>
+         <a href="data_editor.html"><h4 style="color: #666666;">Postman's Data Editor ></h4></a>
        </section>
      </article>
 

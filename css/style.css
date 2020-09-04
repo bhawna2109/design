@@ -16,9 +16,9 @@ video{
 
 .video-desc{
   text-align: center;
-  padding: 20px;
   font-size: 18px;
-  padding: 60px;
+  padding: 160px;
+  padding-bottom: 60px;
   padding-top: 10px;
   color: #666;
 }
