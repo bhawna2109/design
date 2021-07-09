@@ -545,10 +545,10 @@ footer{
   padding: 40px;
 }
 
-#about-img{
+/* #about-img{
   width: 100%;
   margin: 0 auto;
-}
+} */
 
 
 #eureka{
@@ -997,9 +997,9 @@ button.btn{
 
   #about-img{
     grid-column: 3/span 4;
-    padding-top: 100px;
+    padding-top: 0px;
     padding-bottom: 0;
-    width: 100%;
+    width: 60%;
   }
 
   #about-desc{
