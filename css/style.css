@@ -145,9 +145,9 @@ video{
   color: black;
   font-size: 48px; 
   line-height: 60px;
-  padding: 40px;
-  padding-bottom: 8px;
-  padding-top: 0;
+  /* padding: 40px;
+  padding-bottom: 0px;
+  padding-top: 0; */
 }
 
 #hello:hover{
