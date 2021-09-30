@@ -144,6 +144,12 @@ video{
   background-color: white;
 }
 
+.pixel56{
+  grid-column: 1/-1;
+  padding-bottom: 56px;
+  background-color: white;
+}
+
 #hello{
   font-family: orpheuspro, serif;
   font-weight: 400;
@@ -735,15 +741,21 @@ button.btn{
 
 
 /* <!-- ======MEDIA QUERY 850px========> --> */
+@media screen and (min-width: 1600px){
+  #card-new{
+    grid-column: 4/span 6;
+  }
+}
 
 @media screen and (min-width: 850px){
 
   #card-new{
     grid-column: 3/span 8;
   }
-  
+
   #card-new > a > img{
     padding: 0;
+    width: 100%;
   }
 
   /* #hello{
