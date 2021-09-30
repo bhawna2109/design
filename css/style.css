@@ -138,6 +138,12 @@ video{
   background-color: #f4f4f4;
 }
 
+.pixel30{
+  grid-column: 1/-1;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
 #hello{
   font-family: orpheuspro, serif;
   font-weight: 400;
@@ -198,7 +204,7 @@ video{
 }
 
 .cards {
-  grid-column: 3/ span 10;
+  grid-column: 4/ span 6;
 }
 
 /* .cards-wide > ul{
@@ -210,7 +216,7 @@ video{
 } */
 
 .cards > ul{
-  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
 }
 
 .cards > ul {
@@ -272,6 +278,23 @@ video{
 }
 
 
+#card-new > a > img{
+  width:96%;
+  padding:0 2%;
+}
+
+/* #card-new:hover{
+  -webkit-transition: all 200ms ease-in-out;
+  -webkit-transform: scale(1.015);
+  -ms-transition: all 200ms ease-in-out;
+  -ms-transform: scale(1.015);
+  -moz-transition: all 200ms ease-in-out;
+  -moz-transform: scale(1.015);
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0 40px #cccccc;
+} */
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -286,7 +309,8 @@ header{
 }
 
 #index-header{
-  background-color: #F4F6F8;
+/* background-color:#fdf0e6; */
+background-color: white;
 }
 
 /* .index-container{
@@ -341,8 +365,8 @@ header{
 body{
   background-color: white;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.1px;
+  line-height: 28px;
+  letter-spacing: 0rem;
   margin: 0;
   padding: 0;
   /* font-family: 'Noto Sans', sans-serif; */
@@ -574,7 +598,8 @@ footer{
 } */
 
 #index-title{
-  background-color: #F4F6F8 ;
+  /* background-color: #fdf0e6 ; */
+  background-color: white ;
   color: black;
   padding: 40px;
   padding-top: 100px;
@@ -713,6 +738,14 @@ button.btn{
 
 @media screen and (min-width: 850px){
 
+  #card-new{
+    grid-column: 3/span 8;
+  }
+  
+  #card-new > a > img{
+    padding: 0;
+  }
+
   /* #hello{
     color: #FBCBC8; 
     font-weight: 600; 
@@ -730,7 +763,7 @@ button.btn{
   body{
     font-size: 20px;
     line-height: 2em;
-    letter-spacing: 0.1px;
+    letter-spacing: 0rem;
     /* margin: 1.5em; */
   }
 
@@ -739,10 +772,10 @@ button.btn{
     grid-template-columns: min-content 1fr;
   } */
 
-  #index-grid{
+  /* #index-grid{
     display: grid;
     grid-template-columns: min-content 1fr;
-  }
+  } */
 
   .name-logo{
     padding-left: 56px;
@@ -905,7 +938,7 @@ button.btn{
   }
 
   .proj-container-white{
-    background-color: white;
+    background-color: #fff;
   }
 
   .proj-container-grey{
@@ -953,7 +986,7 @@ button.btn{
   
   .sec{
     padding: 100px 0;
-    grid-column: 3/span 7;
+    grid-column: 4/span 6;
     padding-bottom: 0;
   }
 
