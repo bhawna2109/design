@@ -1076,7 +1076,7 @@ button.btn{
 /* <!-- ======MEDIA QUERY 1600px========> --> */
 @media screen and (min-width: 1600px){
   #card-new{
-    grid-column: 4/span 6;
+    grid-column: 3/span 8;
   }
 
   #card-new > a > img{
