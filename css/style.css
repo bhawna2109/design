@@ -17,6 +17,7 @@ video{
 .video-desc{
   text-align: center;
   font-size: 18px;
+  line-height: 32px;
   padding: 160px;
   padding-bottom: 60px;
   padding-top: 10px;
@@ -1076,7 +1077,7 @@ button.btn{
 /* <!-- ======MEDIA QUERY 1600px========> --> */
 @media screen and (min-width: 1600px){
   #card-new{
-    grid-column: 4/span 6;
+    grid-column: 3/span 8;
   }
 
   #card-new > a > img{
