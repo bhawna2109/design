@@ -290,6 +290,11 @@ video{
   padding:0 2%;
 }
 
+#card-new > img{
+  width:96%;
+  padding:0 2%;
+}
+
 /* #card-new:hover{
   -webkit-transition: all 200ms ease-in-out;
   -webkit-transform: scale(1.015);
@@ -751,6 +756,11 @@ button.btn{
     width: 100%;
   }
 
+  #card-new > img{
+    padding: 0;
+    width: 100%;
+  }
+
   /* #hello{
     color: #FBCBC8; 
     font-weight: 600; 
@@ -1081,6 +1091,11 @@ button.btn{
   }
 
   #card-new > a > img{
+    padding: 0;
+    width: 100%;
+  }
+
+  #card-new > img{
     padding: 0;
     width: 100%;
   }
