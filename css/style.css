@@ -4,6 +4,12 @@
   box-shadow: 2px 4px 24px rgba(0,0,0,0.10);
 }
 
+.video-style-WL{
+  width: 28%;
+  border-radius: 16px;
+  box-shadow: 2px 4px 24px rgba(0,0,0,0.10);
+}
+
 video{
   object-fit: contain;
 }
