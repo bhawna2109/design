@@ -310,17 +310,17 @@ video{
 }
 
 
-#card-new > a > img{
+.card-new > a > img{
   width:96%;
   padding:0 2%;
 }
 
-#card-new > img{
+.card-new > img{
   width:96%;
   padding:0 2%;
 }
 
-/* #card-new:hover{
+/* .card-new:hover{
   -webkit-transition: all 200ms ease-in-out;
   -webkit-transform: scale(1.015);
   -ms-transition: all 200ms ease-in-out;
@@ -429,6 +429,7 @@ h2{
   font-style: normal;  letter-spacing: 0.1px;
   font-size: 1.4em;
   line-height: 1.4em;
+  padding-bottom: 24px;
 }
 
 h3{
@@ -772,16 +773,16 @@ button.btn{
 /* <!-- ======MEDIA QUERY 850px========> --> */
 @media screen and (min-width: 850px){
 
-  #card-new{
+  .card-new{
     grid-column: 3/span 8;
   }
 
-  #card-new > a > img{
+  .card-new > a > img{
     padding: 0;
     width: 100%;
   }
 
-  #card-new > img{
+  .card-new > img{
     padding: 0;
     width: 100%;
   }
@@ -1102,6 +1103,22 @@ button.btn{
 
 }
 
+@media screen and (min-width:1441px){
+.proj-sec, #journey-content, #inspiration-content{
+  grid-column: 5/span 4;
+}
+.card-new{
+  grid-column: 4/span 6;
+}
+#about-img{
+  grid-column: 5/span 3;
+}
+
+#about-desc{
+  grid-column: 5/span 4;
+}
+}
+
 
 @media screen and (min-width: 1300px){
   .cards-wide > ul{
@@ -1111,16 +1128,12 @@ button.btn{
 
 /* <!-- ======MEDIA QUERY 1600px========> --> */
 @media screen and (min-width: 1600px){
-  #card-new{
-    grid-column: 3/span 8;
-  }
-
-  #card-new > a > img{
+  .card-new > a > img{
     padding: 0;
     width: 100%;
   }
 
-  #card-new > img{
+  .card-new > img{
     padding: 0;
     width: 100%;
   }

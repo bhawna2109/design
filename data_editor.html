@@ -106,7 +106,7 @@
 
     <article class="proj-container proj-container-white" style="padding-top: 0px;">
       <section class="proj-sec" style="padding-bottom: 60px; text-align: center;">
-        <h2>View more data at a glance in a cleaner interface</h2>
+        <h2 style="padding-bottom: 8px;">View more data at a glance in a cleaner interface</h2>
         <p>We’ve configured the available horizontal and vertical space more effectively to optimize the data that can be displayed up front. Relevant actions (delete, move) will display for a specific row on hover. This reduces clutter in the interface and helps you focus on the most relevant data.</p>
       </section>
       <section class="proj-sec-eighty">
@@ -118,7 +118,7 @@
       </section>
 
       <section class="proj-sec" style="padding-bottom: 60px; text-align: center; padding-top: 200px;">
-        <h2>Ability to resize columns</h2>
+        <h2 style="padding-bottom: 8px;">Ability to resize columns</h2>
         <p>If one column needs more horizontal area as compared to another, you can resize the columns.</p>
       </section>
       <section class="proj-sec-eighty">
@@ -130,7 +130,7 @@
       </section>
 
       <section class="proj-sec" style="padding-bottom: 60px; text-align: center; padding-top: 200px;">
-        <h2>Get a complete view of the information you want to see</h2>
+        <h2 style="padding-bottom: 8px;">Get a complete view of the information you want to see</h2>
         <p>We display the information you want to see up front. If you navigate to a place with a large amount of data, the UI element auto expands to show the complete information. We also implemented this capability in the URL bar to show the complete URL.</p>
       </section>
       <section class="proj-sec-eighty">
@@ -141,7 +141,7 @@
         </div>
       </section>
 
-      <section class="proj-sec" style="padding-bottom: 60px; text-align: center; padding-top: 200px;">
+      <section class="proj-sec" style="padding-bottom: 32px; text-align: center; padding-top: 200px;">
         <h2>Keyboard shortcuts to supercharge your workflows</h2>
       </section>
       <section class="proj-sec-eighty">
@@ -156,7 +156,7 @@
       </section>
 
       <section class="proj-sec" style="padding-bottom: 60px; text-align: center; padding-top: 200px;">
-        <h2>Support for bulk actions</h2>
+        <h2 style="padding-bottom: 8px;">Support for bulk actions</h2>
         <p>You can now reuse data by copying multiple rows at once and pasting it at another location.</p>
       </section>
       <section class="proj-sec-eighty">
@@ -168,7 +168,7 @@
       </section>
 
       <section class="proj-sec" style="padding-bottom: 60px; text-align: center; padding-top: 200px;">
-        <h2>Customizable views</h2>
+        <h2 style="padding-bottom: 8px;">Customizable views</h2>
         <p>You can choose to show or hide columns based on your workflow. These customizations will persist across app sessions.</p>
       </section>
       <section class="proj-sec-eighty">
@@ -179,7 +179,7 @@
         </div>
       </section>
 
-      <section class="proj-sec" style="padding-bottom: 60px; text-align: center; padding-top: 200px;">
+      <section class="proj-sec" style="padding-bottom: 32px; text-align: center; padding-top: 200px;">
         <h2>Ability to upload files as values</h2>
       </section>
       <section class="proj-sec-eighty">
@@ -191,7 +191,7 @@
       </section>
 
       <section class="proj-sec" style="padding-bottom: 60px; text-align: center; padding-top: 200px;">
-        <h2>One editor, multiple flavours</h2>
+        <h2 style="padding-bottom: 8px;">One editor, multiple flavours</h2>
         <p>Here are all the places where the data editor component is being used in the Postman app. While the base component remains the same at all places, there are different flavours based on the needs of different places.</p>
       </section>
       <section class="proj-sec-eighty" style="padding-bottom: 160px;">
@@ -239,7 +239,7 @@
           <li><strong>Extensibility:</strong> The data editor was not designed with extensibility in mind. Adding each new functionality to the editor - for example, adding variable scope, variable type, variable description - was making the editor visually overwhleming.</li>
         </ul> 
       </section>
-      <section class="proj-sec" style="padding-top: 0; padding-bottom: 40px;">
+      <section class="proj-sec" style="padding-top: 0; padding-bottom: 100px;">
         <h4 style="color:#B51A17; padding-bottom: 15px;">Understand | The 'Who'</h4>
         <h2>Understanding the users and their workflows</h2>
         <p>My goal was to understand the challenges that Postman users faced with the data editor and the workarounds they employed. Talking to my developer peers at Postman (who used Postman), and interacting with Postman users through github, twitter and zendesk helped me understand their likes and dislikes.</p>      
@@ -247,7 +247,7 @@
       <section class="proj-sec-full">
         <img src="images/data_editor2/personas.png" alt="personas" width="100%" style="padding: 0;"> 
       </section>
-      <section class="proj-sec" style="padding-bottom: 40px; padding-top: 40px;"> 
+      <section class="proj-sec" style="padding-bottom: 60px; padding-top: 60px;"> 
         <p>Postman power users like Kim also used the "Bulk-edit" feature to work with large amounts of data quickly. The "Bulk edit" mode in Postman is a "text editor" view for data in the data editor, and it supports quick data manipulation using keyboard based workflows and bulk actions.</p>      
       </section>
       <section class="proj-sec-full" style="padding-bottom: 160px;">
@@ -255,15 +255,26 @@
       </section>
     </article>
 
-    <article class="proj-container proj-container-grey">
-      <section class="proj-sec-full" style="text-align: center; grid-column: 3/span 8; font-size: 18px; padding-top: 160px;">
+    <!-- <article class="proj-container proj-container-grey">
+      <section class="proj-sec-full" style="text-align: center; grid-column: 4/span 6; font-size: 18px; padding-top: 160px;">
         <h4 style="color:#B51A17; padding-bottom: 15px;">The discovery</h4>
         <h2>The 'Key-Value Edit mode' and the 'Bulk-Edit mode' had its own sets of benefits. Users either preferred one over the other, or kept switching between them.</h2>
+        <p>The "Bulk-edit" mode in Postman was built to support expert users. We noticed, however, that the "Key-Value edit" mode and the "Bulk-edit" mode provided different benefits. Thus, if an expert user decided to only use the "Bulk-edit" mode, she would not have the nice visual structure that the "Key-value edit" mode provides. Constantly switching between the two modes was time-consuming.</p>
+        <p>This begged the question, now that we are rethinking about our data editor, <strong>can we combine the benefits of both modes into one?</strong> We decided to experiment and take on this challenge too. Here's when this project got ambitious and exciting.</p>
       </section>
     </article>
 
     <article class="proj-container proj-container-grey">
       <section class="proj-sec" style="text-align: center; padding-top: 20px;">
+        <p>The "Bulk-edit" mode in Postman was built to support expert users. We noticed, however, that the "Key-Value edit" mode and the "Bulk-edit" mode provided different benefits. Thus, if an expert user decided to only use the "Bulk-edit" mode, she would not have the nice visual structure that the "Key-value edit" mode provides. Constantly switching between the two modes was time-consuming.</p>
+        <p>This begged the question, now that we are rethinking about our data editor, <strong>can we combine the benefits of both modes into one?</strong> We decided to experiment and take on this challenge too. Here's when this project got ambitious and exciting.</p>
+      </section>
+    </article> -->
+
+    <article class="proj-container proj-container-grey">
+      <section class="proj-sec">
+        <h4 style="color:#B51A17; padding-bottom: 15px;">The discovery</h4>
+        <h2>The 'Key-Value Edit mode' and the 'Bulk-Edit mode' had its own sets of benefits. Users either preferred one over the other, or kept switching between them.</h2>
         <p>The "Bulk-edit" mode in Postman was built to support expert users. We noticed, however, that the "Key-Value edit" mode and the "Bulk-edit" mode provided different benefits. Thus, if an expert user decided to only use the "Bulk-edit" mode, she would not have the nice visual structure that the "Key-value edit" mode provides. Constantly switching between the two modes was time-consuming.</p>
         <p>This begged the question, now that we are rethinking about our data editor, <strong>can we combine the benefits of both modes into one?</strong> We decided to experiment and take on this challenge too. Here's when this project got ambitious and exciting.</p>
       </section>
