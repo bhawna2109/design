@@ -66,7 +66,7 @@ video{
 
 .tooltip,
 .arrow:after {
-  background: black;
+  background: #0E161C;
 }
 
 .tooltip {
@@ -180,7 +180,7 @@ video{
   font-family: orpheuspro, serif;
   font-weight: 400;
   font-style: normal;  letter-spacing: 0.1px;
-  color: black;
+  color: #0E161C;
   font-size: 48px; 
   line-height: 60px;
   /* padding: 40px;
@@ -227,7 +227,7 @@ video{
 }
 
 .social a h4:hover{
-  color: black;
+  color: #0E161C;
 } */
 
 .cards{
@@ -401,14 +401,14 @@ background-color: white;
 
 body{
   background-color: white;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 2em;
   letter-spacing: 0rem;
   margin: 0;
   padding: 0;
   /* font-family: 'Noto Sans', sans-serif; */
   font-family: 'Poppins', sans-serif;
-  color: black;
+  color: #0E161C;
   display: block;
   width: 100vw;
   -webkit-font-smoothing: antialiased;
@@ -484,7 +484,7 @@ nav a{
 
 
 nav a li:hover{
-  color: black;
+  color: #0E161C;
   /* background: #E9e9e9;
   animation-name: fadeIn;
   animation-duration: 0.2s; */
@@ -517,7 +517,7 @@ nav{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  color: black;
+  color: #0E161C;
 }
 
 /*move the skip link to the exact top.*/
@@ -529,10 +529,10 @@ nav{
   z-index: 1;
 }
 
-/*put a 2px black border around all elements in focus.*/
+/*put a 2px #0E161C border around all elements in focus.*/
 
 /* :focus{
-  border: 2px solid black;
+  border: 2px solid #0E161C;
 } */
 
 
@@ -613,7 +613,7 @@ footer{
 
 
 #eureka{
-  background-color: black ;
+  background-color: #0E161C ;
   color: #929292;
   font-family: "Roboto slab", serif;
   padding: 120px 15%;
@@ -637,7 +637,7 @@ footer{
 #index-title{
   /* background-color: #fdf0e6 ; */
   background-color: white ;
-  color: black;
+  color: #0E161C;
   padding: 40px;
   padding-top: 100px;
   padding-bottom: 80px;
@@ -671,7 +671,7 @@ footer{
 }
 
 a{
-  color: black;
+  color: #0E161C;
   text-decoration: none;
 }
 
@@ -801,7 +801,7 @@ button.btn{
   } */
 
   body{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2em;
     letter-spacing: 0rem;
     /* margin: 1.5em; */
@@ -882,7 +882,7 @@ button.btn{
   }
 
   #side-nav ul li a:hover {
-    color: black;
+    color: #0E161C;
   }
 
   #side-nav ul li a.current {
@@ -1050,7 +1050,7 @@ button.btn{
   
   #eureka{
     grid-column: 1/-1;
-    background-color: black ;
+    background-color: #0E161C ;
     color: #929292;
     font-family: "Roboto slab", serif;
     padding: 240px 25%;
