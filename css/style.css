@@ -395,7 +395,9 @@ background-color: white;
 
 .name-logo{
   padding-left: 40px;
-  margin: 0;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -820,9 +822,6 @@ button.btn{
 
   .name-logo{
     padding-left: 56px;
-    font-family: adobe-garamond-pro, serif;
-    font-weight: 400;
-    font-style: normal;
   }
 
   #sec-about{
